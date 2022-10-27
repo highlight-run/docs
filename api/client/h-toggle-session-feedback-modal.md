@@ -21,12 +21,6 @@ If `projectId` is not set, then Highlight will not send any data. You can use th
 
 ## `HighlightOptions`
 
-### `backendUrl`* (string)*
-
-Specifies the URL that Highlight will send data to. You should not use this unless you are running an on-premise instance.
-
-You may be interested in [Proxying](/tips/proxying-highlight) to make sure your errors and sessions are not blocked by extensions.
-
 ### `manualStart`* (boolean)*
 
 Specifies if Highlight should not automatically start recording when the app starts. This should be used with [`H.start()`](/api/client/h-start)  and [`H.stop()`](/api/client/h-stop) if you want to control when Highlight records.
