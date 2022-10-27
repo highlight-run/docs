@@ -11,7 +11,7 @@ This method is used to send Highlight a custom error.
 H.consumeError(error: Error, message?: string, payload: { [key: string]: string }) => void;
 ```
 
-## `error`* (Error) *Required
+## `error` *(Error)* Required
 
 A Javascript error that you have created or have access to.
 

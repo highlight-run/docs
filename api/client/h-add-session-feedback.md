@@ -13,7 +13,7 @@ If you don't want to implement your own UI to collect feedback, you can use the 
 H.addSessionFeedback(feedbackOptions: SessionFeedbackOptions) => void;
 ```
 
-## `feedbackOptions`* (SessionFeedbackOptions)*
+## `feedbackOptions` *(SessionFeedbackOptions)*
 
 ### `verbatim` *(string)* Required
 
@@ -23,7 +23,7 @@ The feedback string that a user has inputted into your app.
 
 The user's name. This is only required if you have not called [H.identify()](/api/client/h-identify).
 
-### `userEmail`* (string)*
+### `userEmail` *(string)*
 
 The user's email. This is only required if you have not called [H.identify()](/api/client/h-identify).
 
