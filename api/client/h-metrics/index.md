@@ -11,7 +11,7 @@ This method is used to submit custom metrics. You can learn more about [Frontend
 H.metrics(metrics: Metric[]) => void;
 ```
 
-## `metrics` *(Metrics\[]) *Required
+## `metrics` *(Metrics\[])* Required
 
 A list of metrics that you'd like to report. Check out [Metrics](/api/client/h-metrics/metrics)&#x20;
 
