@@ -11,7 +11,7 @@ This method is used to track events that happen during the session. You can lear
 H.track(eventName: string, metadata: [key: string]: string | boolean | number) => void;
 ```
 
-## `eventName`* (string) *Required
+## `eventName` *(string) *Required
 
 The name of the event.
 

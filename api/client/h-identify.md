@@ -11,7 +11,7 @@ This method is used to add an identity to a user for the session. You can learn 
 H.identify(identifier: string, metadata?: [key: string]: string | boolean | number) => void;
 ```
 
-## `identifier`* (string) *Required
+## `identifier` *(string) *Required
 
 The identifier for the user in the session. This is often an email or UUID.
 
