@@ -19,18 +19,13 @@ Calling [Recording Network Requests and Responses](/api/client/h-track) will for
 
 ```typescript
 H.track('signup_button_clicked', {
-  firstTime: true,
-  impressions: 10
+	firstTime: true,
+	impressions: 10,
 })
 
 // The Highlight track call is equivalent to this Intercom call
 Intercom('trackEvent', 'signup_button_clicked', {
-  firstTime: true,
-  impressions: 10
+	firstTime: true,
+	impressions: 10,
 })
 ```
-
-
-
-
-

@@ -15,15 +15,15 @@ Add the snippet to your `index.html`.
 
 ```html
 <html>
-    <head>
-        <script src="https://cdn.jsdelivr.net/npm/highlight.run@latest"></script>
-        <script>
-            window.H.init("<YOUR_PROJECT_ID>") // Get your project ID from https://app.highlight.run/setup
-        </script>
-    </head>
-    <body>
-        <!-- Your Application -->
-    </body>
+	<head>
+		<script src="https://cdn.jsdelivr.net/npm/highlight.run@latest"></script>
+		<script>
+			window.H.init('<YOUR_PROJECT_ID>') // Get your project ID from https://app.highlight.run/setup
+		</script>
+	</head>
+	<body>
+		<!-- Your Application -->
+	</body>
 </html>
 ```
 

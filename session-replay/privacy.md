@@ -12,9 +12,7 @@ Due to the nature of Highlight's core product, we keep privacy as our top priori
 One way to sanitize your recordings is by adding the `highlight-block` CSS class to elements that should be ignored.
 
 ```html
-<div class="highlight-block">
-    Super secret sauce
-</div>
+<div class="highlight-block">Super secret sauce</div>
 ```
 
 The Highlight snippet will in-turn measure the dimensions of the ignored element, and when the recording is being replayed, an empty placeholder will replace the content.
@@ -35,12 +33,25 @@ If you don't want to manually annotate what elements to not record then you can 
 
 Here are some examples:
 
-*   `<h1>Hello World</h1>` will be recorded as `<h1>1f0eqo jw02d</h1>`
+-   `<h1>Hello World</h1>` will be recorded as `<h1>1f0eqo jw02d</h1>`
 
-*   `<img src="https://my-secrets.com/secret.png" />` will be recorded as `<img src="" />`
+-   `<img src="https://my-secrets.com/secret.png" />` will be recorded as `<img src="" />`
 
 ```html
-<iframe height="500px" href="https://xenodochial-benz-c14354.netlify.app/" width="100%" border="none" src="https://xenodochial-benz-c14354.netlify.app/" style="border:none"><a href="https://xenodochial-benz-c14354.netlify.app/" target="" title="xenodochial-benz-c14354.netlify.app">null</a></iframe>
+<iframe
+	height="500px"
+	href="https://xenodochial-benz-c14354.netlify.app/"
+	width="100%"
+	border="none"
+	src="https://xenodochial-benz-c14354.netlify.app/"
+	style="border:none"
+	><a
+		href="https://xenodochial-benz-c14354.netlify.app/"
+		target=""
+		title="xenodochial-benz-c14354.netlify.app"
+		>null</a
+	></iframe
+>
 ```
 
 # Obfuscating a Specific Element
@@ -48,6 +59,7 @@ Here are some examples:
 You can now obfuscate specific HTML elements by adding the `highlight-mask` CSS class. The effect is the same of setting `enableStrictPrivacy` but applies to the specific HTML element that you mask.
 
 ```html
-<div class="highlight-mask">This is some sensitive data <button>Important Button</button></div>
+<div class="highlight-mask">
+	This is some sensitive data <button>Important Button</button>
+</div>
 ```
-

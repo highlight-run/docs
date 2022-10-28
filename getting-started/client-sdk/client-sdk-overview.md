@@ -9,32 +9,30 @@ updatedAt: 2022-05-26T18:53:53.000Z
 
 Get started with one of these guides if you're using a listed framework:
 
-*   [React.js](/getting-started/client-sdk/reactjs)&#x20;
+-   [React.js](/getting-started/client-sdk/reactjs)
 
-*   [Next.js](/getting-started/client-sdk/nextjs)&#x20;
+-   [Next.js](/getting-started/client-sdk/nextjs)
 
-*   [Vue.js](/getting-started/client-sdk/vuejs)&#x20;
+-   [Vue.js](/getting-started/client-sdk/vuejs)
 
-*   [Gatsby.js](/getting-started/client-sdk/gatsbyjs)&#x20;
+-   [Gatsby.js](/getting-started/client-sdk/gatsbyjs)
 
-*   [HTML](/getting-started/client-sdk/html)
+-   [HTML](/getting-started/client-sdk/html)
 
-*   [SvelteKit](/getting-started/client-sdk/sveltekit)&#x20;
+-   [SvelteKit](/getting-started/client-sdk/sveltekit)
 
-*   [Angular](/getting-started/client-sdk/angular)&#x20;
+-   [Angular](/getting-started/client-sdk/angular)
 
 ## Installing the SDK
 
 Install `highlight.run` using your package manager.
 
-```codeblocktabs
-```none
-npm install highlight.run
-```
-
 ```shell
+# with npm
+npm install highlight.run
+
+# with yarn
 yarn add highlight.run
-```
 ```
 
 ## Initialize
@@ -42,27 +40,27 @@ yarn add highlight.run
 Initialize Highlight where your application starts.
 
 ```typescript
-import { H } from 'highlight.run';
+import { H } from 'highlight.run'
 
 H.init(
-    "<YOUR_ORGANIZATION_ID>", // Get this from https://app.highlight.run/setup
-);
+	'<YOUR_ORGANIZATION_ID>', // Get this from https://app.highlight.run/setup
+)
 ```
 
 ### Example
 
 ```typescript
-import React from 'react';
-import { H } from 'highlight.run';
+import React from 'react'
+import { H } from 'highlight.run'
 
-H.init("<YOUR_ORGANZATION_ID>"); // Get this from https://app.hgihlight.run/setup
+H.init('<YOUR_ORGANZATION_ID>') // Get this from https://app.hgihlight.run/setup
 
 ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    document.getElementById('root')
-);
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById('root'),
+)
 ```
 
 ## Verify

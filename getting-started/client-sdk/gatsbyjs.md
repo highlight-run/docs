@@ -13,14 +13,12 @@ Let's get you up and running with Highlight. **We should be done in less than 2 
 
 Install `@highlight-run/gatsby-plugin-highlight` using your package manager.
 
-```codeblocktabs
-```none
-npm install @highlight-run/gatsby-plugin-highlight
-```
-
 ```shell
+# with npm
+npm install @highlight-run/gatsby-plugin-highlight
+
+# with yarn
 yarn add @highlight-run/gatsby-plugin-highlight
-```
 ```
 
 ## Register Highlight as a Gatsby Plugin
@@ -29,14 +27,14 @@ You will need to register the Highlight Gatsby Plugin.
 
 ```javascript
 module.exports = {
-  plugins: [
-    {
-      resolve: "@highlight-run/gatsby-plugin-highlight",
-      options: {
-        orgID: "<YOUR_PROJECT_ID>" // Get your project ID from https://app.highlight.run/setup
-      }
-    },
-  ]
+	plugins: [
+		{
+			resolve: '@highlight-run/gatsby-plugin-highlight',
+			options: {
+				orgID: '<YOUR_PROJECT_ID>', // Get your project ID from https://app.highlight.run/setup
+			},
+		},
+	],
 }
 ```
 

@@ -16,11 +16,10 @@ isInitialized: () => boolean
 ## Example Usage
 
 ```typescript
-import { H } from "@highlight-run/node";
+import { H } from '@highlight-run/node'
 
-const highlightOptions = {};
+const highlightOptions = {}
 if (!H.isInitialized()) {
-  H.init(highlightOptions);
+	H.init(highlightOptions)
 }
 ```
-

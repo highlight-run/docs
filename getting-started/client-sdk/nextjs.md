@@ -13,14 +13,12 @@ Let's get you up and running with Highlight. **We should be done in less than 2 
 
 Install `highlight.run` and `@highlight-run/react` using your package manager.
 
-```codeblocktabs
-```none
-npm install highlight.run @highlight-run/react
-```
-
 ```shell
+# with npm
+npm install highlight.run @highlight-run/react
+
+# with yarn
 yarn add highlight.run @highlight-run/react
-```
 ```
 
 ## Initialize
@@ -28,31 +26,30 @@ yarn add highlight.run @highlight-run/react
 Initialize Highlight where your application starts.
 
 ```typescript
-import { H } from 'highlight.run';
+import { H } from 'highlight.run'
 
 H.init(
-    "<YOUR_PROJECT_ID>" // Get your project ID from https://app.highlight.run/setup
-);
+	'<YOUR_PROJECT_ID>', // Get your project ID from https://app.highlight.run/setup
+)
 ```
 
 ### Example
 
 ```typescript
-import type { AppProps } from 'next/app';
-import { H } from 'highlight.run';
+import type { AppProps } from 'next/app'
+import { H } from 'highlight.run'
 import { ErrorBoundary } from '@highlight-run/react'
 
-
-H.init('<YOUR_PROJECT_ID>'); // Get your project ID from https://app.highlight.run/setup
+H.init('<YOUR_PROJECT_ID>') // Get your project ID from https://app.highlight.run/setup
 
 function MyApp({ Component, pageProps }: AppProps) {
-    return (
-        <ErrorBoundary>
-            <Component {...pageProps} />
-    </ErrorBoundary>
-);
+	return (
+		<ErrorBoundary>
+			<Component {...pageProps} />
+		</ErrorBoundary>
+	)
 }
-export default MyApp;
+export default MyApp
 ```
 
 ## Verify

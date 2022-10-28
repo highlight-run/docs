@@ -12,4 +12,3 @@ When you use Highlight's Live Mode, the Session Viewer shows the latest data fro
 While you can view how a session looks to a user in real time, note that some events haven't been processed and will not be visible. Errors, console logs, and network traffic will only be visible when Live Mode is disabled, up to what's most recently processed. In Live Mode, time-scrubbing is disabled since you're always seeing the latest session view.
 
 You can always turn off Live Mode by clicking the toggle button, which will show the session up to the latest data processed. Clicking on the session to write a comment will also disable Live Mode, since comments are associated with a particular timestamp.
-

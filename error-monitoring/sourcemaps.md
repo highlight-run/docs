@@ -46,13 +46,12 @@ The path that Highlight will use to send `.map` files. The default value is `./b
 
 ## `appVersion`
 
-The version of your current deployment. This is the same version string your provide as `version` to [H.init()](/api/client/h-init).  This ensures that we're always using the same set of sourcemaps for your current bundle. The default value is the current Git hash.
+The version of your current deployment. This is the same version string your provide as `version` to [H.init()](/api/client/h-init). This ensures that we're always using the same set of sourcemaps for your current bundle. The default value is the current Git hash.
 
 ## Generating Sourcemaps
 
 To use the Highlight [sourcemap-uploader](https://www.npmjs.com/package/@highlight-run/sourcemap-uploader) , you need to be generating [sourcemaps](https://developer.chrome.com/blog/sourcemaps/) for your project. Exactly how to do this depends on your target environment and javascript configuration. Bundlers like [babel](https://babeljs.io/docs/en/options#source-map-options), [webpack](https://webpack.js.org/configuration/devtool/), [esbuild](https://esbuild.github.io/api/#sourcemap), or [rollup](https://rollupjs.org/guide/en/#outputoptions-object) all provide different ways to enable sourcemap generation. Refer to documentation for your specific bundler to generate production-ready sourcemaps or reach out if you need more help!
 
-### Electron App Sourcemaps&#x20;
+### Electron App Sourcemaps
 
 Although your electron app configuration may vary, many will chose to use webpack to generate sourcemaps. Refer to the [general webpack sourcemap documentation](https://webpack.js.org/configuration/devtool/) as well as [this useful reference](https://docs.sentry.io/platforms/javascript/guides/electron/sourcemaps/generating/) to configure your build.
-

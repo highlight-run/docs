@@ -10,20 +10,16 @@ When using Highlight, it can be useful to know which app version an error is int
 To tag your errors with a version, you can set the `version` field in the [`H.init()`](/api/client/h-init).
 
 ```typescript
-import App from "./App";
-import { H } from "highlight.run";
+import App from './App'
+import { H } from 'highlight.run'
 
-H.init("<YOUR_ORGANIZATION_ID>", {
-  version: process.env.REACT_APP_VERSION,
-});
+H.init('<YOUR_ORGANIZATION_ID>', {
+	version: process.env.REACT_APP_VERSION,
+})
 
-ReactDOM.render(
-  <App />,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById('root'))
 ```
 
 ## Versioning Sessions
 
 `version` is used for sessions too, see [Versioning Sessions](/session-replay/versioning-sessions) for more information.
-

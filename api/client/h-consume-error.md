@@ -11,11 +11,11 @@ This method is used to send Highlight a custom error.
 H.consumeError(error: Error, message?: string, payload: { [key: string]: string }) => void;
 ```
 
-## `error` *(Error)* Required
+## `error` _(Error)_ Required
 
 A Javascript error that you have created or have access to.
 
-## `message` *(string)*
+## `message` _(string)_
 
 An additional message you'd like to add to the error to give the error more context.
 
@@ -28,6 +28,6 @@ Additional metadata that you'd like to attach to the error to give the error mor
 ```typescript
 // error is provided to you from your Javascript framework or something like https://github.com/stacktracejs/stacktrace.js/
 H.consumeError(error, 'Error in Highlight custom boundary!', {
-  component: 'JustThroughAnError.tsx',
-});
+	component: 'JustThroughAnError.tsx',
+})
 ```

@@ -9,13 +9,12 @@ Highlight out of the box shows you the console messages that were logged during 
 
 ## Configuration
 
-*   Disabling console recording can be configured with `disableConsoleRecording`.
+-   Disabling console recording can be configured with `disableConsoleRecording`.
 
-*   You can specify which console methods to record with `consoleMethodsToRecord`.
+-   You can specify which console methods to record with `consoleMethodsToRecord`.
 
 ```hint
 Console messages are not recorded on `localhost` because Highlight emits debug messages which could cause an infinite loop in some situations.
 ```
 
 See [H.init()](/api/client/h-init) for more information.
-

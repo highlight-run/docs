@@ -11,7 +11,7 @@ This method is used to track events that happen during the session. You can lear
 H.track(eventName: string, metadata: [key: string]: string | boolean | number) => void;
 ```
 
-## `eventName` *(string)* Required
+## `eventName` _(string)_ Required
 
 The name of the event.
 
@@ -22,9 +22,8 @@ Metadata for the event. You can think of these as additional tags for the event.
 ### Example
 
 ```typescript
-H.track("Opened Shopping Cart", {
-    accountType: "premium",
-    cartSize: 10
-});
+H.track('Opened Shopping Cart', {
+	accountType: 'premium',
+	cartSize: 10,
+})
 ```
-

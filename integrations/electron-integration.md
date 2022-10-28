@@ -26,4 +26,3 @@ window.on('blur', () => {
 ```
 
 This will stop all highlight recording when the app is not visible and resume the session when the app regains visibility to help minimize performance and battery impact that Highlight may have on Electron users.
-

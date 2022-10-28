@@ -11,9 +11,9 @@ This method is called to initialized Highlight in your application.
 H.init(projectId?: string, options?: HighlightOptions) => void;
 ```
 
-*You can find your `projectId` by going to <https://app.highlight.run/setup>.*
+_You can find your `projectId` by going to <https://app.highlight.run/setup>._
 
-## `projectId` *(string)*
+## `projectId` _(string)_
 
 The `projectId` tells Highlight where to send data to. You can find your `projectId` on <https://app.highlight.run/setup>.
 
@@ -21,67 +21,67 @@ If `projectId` is not set, then Highlight will not send any data. You can use th
 
 ## `HighlightOptions`
 
-### `backendUrl` *(string)*
+### `backendUrl` _(string)_
 
 Specifies the URL that Highlight will send data to. You need this only to set up a proxy preventing third-party extensions, browser configurations, or VPN settings from blocking requests to Highlight servers.
 
 See [Proxying](/tips/proxying-highlight) setup instructions for details.
 
-### `manualStart` *(boolean)*
+### `manualStart` _(boolean)_
 
-Specifies if Highlight should not automatically start recording when the app starts. This should be used with [`H.start()`](/api/client/h-start)  and [`H.stop()`](/api/client/h-stop) if you want to control when Highlight records.
+Specifies if Highlight should not automatically start recording when the app starts. This should be used with [`H.start()`](/api/client/h-start) and [`H.stop()`](/api/client/h-stop) if you want to control when Highlight records.
 
-*The default value is `false`.*
+_The default value is `false`._
 
-### `disableConsoleRecording` *(boolean)*
+### `disableConsoleRecording` _(boolean)_
 
 Specifies whether Highlight records console messages.
 
 It can be helpful to set this to `true` while developing locally so you can see where console messages are being made in your source code.
 
-*The default value is `false`.*
+_The default value is `false`._
 
-### `consoleMethodsToRecord` *(string\[])*
+### `consoleMethodsToRecord` _(string\[])_
 
 This configuration is available starting in version `2.11.0`.
 
 The value here will be ignored if `disabledConsoleRecording` is `true`.
 
-*The default value is `['assert', 'count', 'countReset', 'debug', 'dir', 'dirxml', 'error', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log', 'table', 'time', 'timeEnd', 'timeLog', 'trace', 'warn']`.*
+_The default value is `['assert', 'count', 'countReset', 'debug', 'dir', 'dirxml', 'error', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log', 'table', 'time', 'timeEnd', 'timeLog', 'trace', 'warn']`._
 
-### `enableSegmentIntegration` *(boolean)*
+### `enableSegmentIntegration` _(boolean)_
 
 Allows patching of segment requests to enhance data automatically in your application (i.e. `identify`, `track`, etc..)
 
-*The default value is `false`.*
+_The default value is `false`._
 
-### `environment` *(string)*
+### `environment` _(string)_
 
 Specifies the environment your application is running in.
 
 See [Environments](/product-features/environments) to see how setting the environment can help you move faster.
 
-*The default value is `production`.*
+_The default value is `production`._
 
-### `networkRecording` *(*[*NetworkRecordingOptions*](/api/client/h-init)*)*
+### `networkRecording` _(_[_NetworkRecordingOptions_](/api/client/h-init)_)_
 
 Specifies how and what network requests and responses Highlight records.
 
 See [Recording Network Requests and Responses](/session-replay/recording-network-requests-and-responses) for more information.
 
-### `version` *(string)*
+### `version` _(string)_
 
 Specifies the version of your application.
 
 See [Versioning Sessions](/session-replay/versioning-sessions) and [Versioning Errors](/error-monitoring/versioning-errors) to see how setting the version can help you move faster.
 
-### `enableStrictPrivacy` *(boolean)*
+### `enableStrictPrivacy` _(boolean)_
 
 Specifies whether Highlight should redact all text and image data during recording.
 
 This is useful to make sure you are not recording any personally identifiable information without having to manually add annotations to elements you don't want to be recorded. See [Privacy](/session-replay/privacy) to learn more about the privacy options.
 
-*The default value is `false`.*
+_The default value is `false`._
 
 ### `integrations`
 
@@ -99,7 +99,7 @@ This is only available on versions greater than `2.7.5` of `highlight-run`.
 
 Specifies whether Highlight will record performance metrics (e.g. FPS, device memory). See [Performance Data](/product-features/performance-data) for more information.
 
-*The default value is `true`.*
+_The default value is `true`._
 
 ### `sessionShortcut`
 
@@ -107,28 +107,28 @@ Specifies the keyboard shortcut to open the current session in Highlight.
 
 We support the same syntax as [hotkeys](https://github.com/jaywcjlove/hotkeys) for configuring the keyboard shortcut.
 
-*The default value is `false`.*
+_The default value is `false`._
 
 ```javascript
 // Disable the session shortcut. The is the default behavior.
-H.init("<YOUR_PROJECT_ID>", {
-    "sessionShortcut": false
-});
+H.init('<YOUR_PROJECT_ID>', {
+	sessionShortcut: false,
+})
 
 // Enable the session shortcut with the Ctrl and 0 keys.
-H.init("<YOUR_PROJECT_ID>", {
-    "sessionShortcut": "ctrl+0"
-});
+H.init('<YOUR_PROJECT_ID>', {
+	sessionShortcut: 'ctrl+0',
+})
 
 // Enable the session shortcut with the Ctrl+0 and Ctrl+p keys.
-H.init("<YOUR_PROJECT_ID>", {
-    "sessionShortcut": "ctrl+0,ctrl+p"
-});
+H.init('<YOUR_PROJECT_ID>', {
+	sessionShortcut: 'ctrl+0,ctrl+p',
+})
 
 // Enable the session shortcut with the Ctrl+0 and Command+0 keys.
-H.init("<YOUR_PROJECT_ID>", {
-    "sessionShortcut": "ctrl+0,command+0"
-});
+H.init('<YOUR_PROJECT_ID>', {
+	sessionShortcut: 'ctrl+0,command+0',
+})
 ```
 
 See [Session Shortcut](/session-replay/session-shortcut) for more information.
@@ -136,4 +136,3 @@ See [Session Shortcut](/session-replay/session-shortcut) for more information.
 ### `feedbackWidget`
 
 Specifies the configuration for the Highlight feedback widget. This widget is used to collect user feedback. The feedback is collected in the context of the session.
-

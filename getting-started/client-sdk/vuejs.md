@@ -13,14 +13,12 @@ Let's get you up and running with Highlight. **We should be done in less than 2 
 
 Install `highlight.run` using your package manager.
 
-```codeblocktabs
-```none
-npm install highlight.run
-```
-
 ```shell
+# with npm
+npm install highlight.run
+
+# with yarn
 yarn add highlight.run
-```
 ```
 
 ## Initialize
@@ -28,23 +26,23 @@ yarn add highlight.run
 Initialize Highlight where your application starts.
 
 ```typescript
-import { H } from 'highlight.run';
+import { H } from 'highlight.run'
 
 H.init(
-    "<YOUR_PROJECT_ID>", // Get your project ID from https://app.highlight.run/setup
-);
+	'<YOUR_PROJECT_ID>', // Get your project ID from https://app.highlight.run/setup
+)
 ```
 
 ### Example
 
 ```typescript
-import { H } from "highlight.run";
-import { createApp } from "vue";
-import App from "./App.vue";
+import { H } from 'highlight.run'
+import { createApp } from 'vue'
+import App from './App.vue'
 
-H.init("9me23yd2"); // Get your project ID from https://app.highlight.run/setup
+H.init('9me23yd2') // Get your project ID from https://app.highlight.run/setup
 
-createApp(App).mount("#app");
+createApp(App).mount('#app')
 ```
 
 ## Verify

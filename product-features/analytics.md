@@ -7,21 +7,20 @@ updatedAt: 2021-09-14T18:54:27.000Z
 
 Highlight provides analytics for your app to give you an idea of who and what are users doing. We provide the following:
 
-*   Sessions per Day
+-   Sessions per Day
 
-*   Errors per Day
+-   Errors per Day
 
-*   Referrers
+-   Referrers
 
-*   Top Users
+-   Top Users
 
-*   New Users
+-   New Users
 
-*   Device Type
+-   Device Type
 
-*   Browser Type
+-   Browser Type
 
-*   Session Durations
+-   Session Durations
 
-*   Operating System
-
+-   Operating System

@@ -9,15 +9,19 @@ updatedAt: 2022-09-29T18:01:58.000Z
 We are actively working on improving recording of canvas elements. If you have any questions or suggestions please reach out to us at support@highlight.run
 ```
 
-Highlight by default does not record the contents of `<canvas>` elements. This is usually why the session replay has blank areas where those areas should be `<canvas>` elements. We provide experimental recording of `<canvas>` contents.&#x20;
+Highlight by default does not record the contents of `<canvas>` elements. This is usually why the session replay has blank areas where those areas should be `<canvas>` elements. We provide experimental recording of `<canvas>` contents.
 
 Ensure you have installed [highlight.run >= 4.3.6](https://www.npmjs.com/package/highlight.run/v/4.3.6). Enable canvas recording by configuring [H.init()](/api/client/h-init).
 
 ```javascript
 H.init('YOUR_PROJECT_ID', {
-    enableCanvasRecording: true,
-    samplingStrategy: { canvas: 15, canvasQuality: 'low', canvasMaxSnapshotDimension: 480 }, 
-});
+	enableCanvasRecording: true,
+	samplingStrategy: {
+		canvas: 15,
+		canvasQuality: 'low',
+		canvasMaxSnapshotDimension: 480,
+	},
+})
 ```
 
 `samplingStrategy.canvas` is the frame per second rate used to record the HTML canvas. We recommend a value < 5 to ensure recording performance is not impacted at high resolutions.
@@ -32,5 +36,4 @@ Even though this feature is experimental, it should not have any impact on your 
 
 ## Caveats
 
-*   [Privacy](/session-replay/privacy) controls do not apply to canvas recording right now
-
+-   [Privacy](/session-replay/privacy) controls do not apply to canvas recording right now

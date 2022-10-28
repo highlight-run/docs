@@ -14,6 +14,7 @@ You should keep reading this if your application runs in an environment that enf
 Here are the policies you'll need to set to use Highlight:
 
 1.  `script-src`: `https://static.highlight.run/`
+
     1.  This policy is to allow downloading the Highlight runtime code for session recording and error monitoring.
 
 2.  `connect-src`: `https://pub.highlight.run`

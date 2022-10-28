@@ -9,92 +9,94 @@ The queries you build when searching for sessions are reflected in the URL param
 
 ## Syntax
 
-`/sessions?query={and|or}||{property1},{operator1},{valueA},{valueB}`&#x20;
+`/sessions?query={and|or}||{property1},{operator1},{valueA},{valueB}`
 
-*   Highlight supports `and` and `or` queries
+-   Highlight supports `and` and `or` queries
 
-*   User properties:
-    *   `user_{your_property_name}`&#x20;
+-   User properties:
 
-*   Track properties:
-    *   `track_{your_property_name}`&#x20;
+    -   `user_{your_property_name}`
 
-*   Sessions built-in properties (these are automatically populated by Highlight):
-    *   `user_identifier
-        `&#x20;
+-   Track properties:
 
+    -   `track_{your_property_name}`
 
-    *   `session_browser_version`&#x20;
+-   Sessions built-in properties (these are automatically populated by Highlight):
 
-    *   `session_browser_name`&#x20;
+    -   `user_identifier `
 
-    *   `session_device_id`
+    -   `session_browser_version`
 
-    *   `session_environment`
+    -   `session_browser_name`
 
-    *   `session_os_name`
+    -   `session_device_id`
 
-    *   `session_os_version`
+    -   `session_environment`
 
-    *   `session_referrer`
+    -   `session_os_name`
 
-    *   `session_reload`
+    -   `session_os_version`
 
-    *   `session_visited-url`
+    -   `session_referrer`
 
-    *   `custom_app_version`
+    -   `session_reload`
 
-    *   `custom_created_at`
+    -   `session_visited-url`
 
-    *   `custom_active_length`&#x20;
+    -   `custom_app_version`
 
-    *   `custom_viewed`&#x20;
+    -   `custom_created_at`
 
-    *   `custom_processed`&#x20;
+    -   `custom_active_length`
 
-    *   `custom_first_time`&#x20;
+    -   `custom_viewed`
 
-    *   `custom_starred` &#x20;
+    -   `custom_processed`
 
-*   Operators:
-    *   `is`&#x20;
+    -   `custom_first_time`
 
-    *   `is_not`&#x20;
+    -   `custom_starred`
 
-    *   `contains`&#x20;
+-   Operators:
 
-    *   `not_contains`&#x20;
+    -   `is`
 
-    *   `exists`&#x20;
+    -   `is_not`
 
-    *   `not_exists`&#x20;
+    -   `contains`
 
-    *   `matches` (uses Lucene regex syntax)
+    -   `not_contains`
 
-    *   `not_matches` (uses Lucene regex syntax)
+    -   `exists`
 
-    *   `between` (for active\_length)
+    -   `not_exists`
 
-    *   `not_between` (for active\_length)
+    -   `matches` (uses Lucene regex syntax)
 
-    *   `between_date` (for created\_at)
+    -   `not_matches` (uses Lucene regex syntax)
 
-    *   `not_between_date` (for created\_at)
+    -   `between` (for active_length)
+
+    -   `not_between` (for active_length)
+
+    -   `between_date` (for created_at)
+
+    -   `not_between_date` (for created_at)
 
 ## Examples
 
-Viewing sessions for a particular user:&#x20;
+Viewing sessions for a particular user:
 
-&#x20;`/sessions?query=and||user_identifier,is,alice@example.com`
+`/sessions?query=and||user_identifier,is,alice@example.com`
 
-Excluding sessions from your organization:&#x20;
+Excluding sessions from your organization:
 
-&#x20;`/sessions?query=and||user_identifier,not_contains,@yourdomain.com`
+`/sessions?query=and||user_identifier,not_contains,@yourdomain.com`
 
 Viewing sessions for a particular page in your app:
 
-`/sessions?query=and||session_visited-url,contains,/your/path/name`&#x20;
+`/sessions?query=and||session_visited-url,contains,/your/path/name`
 
 Multiple properties
 
-`/sessions?query=or||user_identifier,is,Bob||user_email,is_not,alice@example.com`&#x20;
+`/sessions?query=or||user_identifier,is,Bob||user_email,is_not,alice@example.com`

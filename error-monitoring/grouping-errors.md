@@ -5,7 +5,7 @@ createdAt: 2022-03-22T15:27:43.000Z
 updatedAt: 2022-06-27T03:34:47.000Z
 ---
 
-Highlight groups errors together based on their error message and stack trace. When an error is thrown, Highlight finds the closest matching error and adds the new error instance to it.&#x20;
+Highlight groups errors together based on their error message and stack trace. When an error is thrown, Highlight finds the closest matching error and adds the new error instance to it.
 
 An error is matched if:
 
@@ -44,8 +44,3 @@ If your errors are in JSON form, you can add JSONPath expressions in your [proje
 ```
 
 They would not be grouped together since the errors are not an exact match and since they were thrown at different lines in your code. In this case, if you wanted to group all errors of the same type into the same error group, you can add an expression `$.type` in your project settings.
-
-
-
-
-

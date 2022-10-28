@@ -10,22 +10,16 @@ When using Highlight, it can be useful to know which app version a session is re
 To tag your sessions with a version, you can set the `version` field in the [`H.init()`](/api/client/h-init).
 
 ```typescript
-import App from "./App";
-import { H } from "highlight.run";
+import App from './App'
+import { H } from 'highlight.run'
 
-H.init("<YOUR_ORGANIZATION_ID>", {
-  version: process.env.REACT_APP_VERSION,
-});
+H.init('<YOUR_ORGANIZATION_ID>', {
+	version: process.env.REACT_APP_VERSION,
+})
 
-ReactDOM.render(
-  <App />,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById('root'))
 ```
 
 ## Versioning Errors
 
 `version` is used for errors too, see [Versioning Errors](/error-monitoring/versioning-errors) for more information.
-
-
-

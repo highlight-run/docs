@@ -12,8 +12,7 @@ Environments are also used to determine whether [Alerts](/product-features/alert
 ## Example
 
 ```typescript
-H.init("<YOUR_PROJECT_ID>", {
-    environment: process.env.ENVIRONMENT
+H.init('<YOUR_PROJECT_ID>', {
+	environment: process.env.ENVIRONMENT,
 })
 ```
-

@@ -11,9 +11,9 @@ This method is used to submit custom metrics. You can learn more about [Frontend
 H.metrics(metrics: Metric[]) => void;
 ```
 
-## `metrics` *(Metrics\[])* Required
+## `metrics` _(Metrics\[])_ Required
 
-A list of metrics that you'd like to report. Check out [Metrics](/api/client/h-metrics)&#x20;
+A list of metrics that you'd like to report. Check out [Metrics](/api/client/h-metrics)
 
 ### Example
 
@@ -29,15 +29,14 @@ H.metrics([{
 }
 ```
 
-
-## `name` *(string)*
+## `name` _(string)_
 
 The name of the metric you are reporting.
 
-## `value` *(number)*
+## `value` _(number)_
 
 The numeric value of the metric.
 
-## `tags` *({ name: string; value: string }\[])*
+## `tags` _({ name: string; value: string }\[])_
 
 A set of name,value pairs the represent tags about the metric. Tags can be used to filter and group metrics. See [Frontend Observability](/product-features/frontend-observability) for more details.

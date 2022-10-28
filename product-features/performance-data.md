@@ -13,12 +13,10 @@ You can see how your application's performance data in the session's developer t
 
 ## Types of Data Recorded
 
-*   Memory Usage (How much available RAM is your application using)
-    *   This is currently only available on Chromium browsers
+-   Memory Usage (How much available RAM is your application using)
 
-*   Frames per second (Is your application smooth and not janky?)
+    -   This is currently only available on Chromium browsers
 
-*   Long event handlers (Coming soon)
+-   Frames per second (Is your application smooth and not janky?)
 
-
-
+-   Long event handlers (Coming soon)

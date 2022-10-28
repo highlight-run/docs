@@ -7,11 +7,11 @@ updatedAt: 2022-10-18T22:40:13.000Z
 
 The Highlight Next.js SDK adds additional features to Highlight, including:
 
-*   server-side error monitoring and linking to Highlight sessions: [Highlight()](/getting-started/nextjs-sdk/highlight)&#x20;
+-   server-side error monitoring and linking to Highlight sessions: [Highlight()](/getting-started/nextjs-sdk/highlight)
 
-*   automatic configuration of source map uploads: [withHighlightConfig()](/getting-started/nextjs-sdk/with-highlight-config)&#x20;
+-   automatic configuration of source map uploads: [withHighlightConfig()](/getting-started/nextjs-sdk/with-highlight-config)
 
-*   automatic proxying for Highlight requests using Next.js rewrites: [withHighlightConfig()](/getting-started/nextjs-sdk/with-highlight-config)&#x20;
+-   automatic proxying for Highlight requests using Next.js rewrites: [withHighlightConfig()](/getting-started/nextjs-sdk/with-highlight-config)
 
 ## Getting Started
 
@@ -38,14 +38,12 @@ If you are not using Vercel or would like to configure this manually, you can se
 
 Import the `@highlight-run/next` Package
 
-```codeblocktabs
 ```shell
+# with npm
 npm install @highlight-run/next
-```
 
-```shell
+# with yarn
 yarn add @highlight-run/next
-```
 ```
 
 ### Wrapping your next.config.js
@@ -53,7 +51,7 @@ yarn add @highlight-run/next
 If you want to configure source map uploads during your production builds and enable the Next.js Highlight proxy rewrite, you can wrap your Next.js config with `withHighlightConfig`. See [withHighlightConfig()](/getting-started/nextjs-sdk/with-highlight-config) for more details.
 
 ```javascript
-import { withHighlightConfig } from "@highlight-run/next";
+import { withHighlightConfig } from '@highlight-run/next'
 export default withHighlightConfig({
 	// your next.config.js options here
 })
@@ -64,21 +62,19 @@ export default withHighlightConfig({
 If you want to monitor backend errors, this API wrapper will send your errors to Highlight and link them to the session where the network request was made. Define a `withHighlight` wrapper with any common options in a common function file. For example, you can create a `highlight.config.ts` file in the root of your next.js codebase. See [Highlight()](/getting-started/nextjs-sdk/highlight) for more details.
 
 ```typescript
-import { Highlight } from "@highlight-run/next";
+import { Highlight } from '@highlight-run/next'
 
-export const withHighlight = Highlight();
+export const withHighlight = Highlight()
 ```
 
-You can then wrap each of your handlers in the Next.js `api/` directory with the `withHighlight` function from the previous step.&#x20;
+You can then wrap each of your handlers in the Next.js `api/` directory with the `withHighlight` function from the previous step.
 
 ```typescript
-import { withHighlight } from "../highlight.config";
+import { withHighlight } from '../highlight.config'
 
 const handler = async (req, res) => {
-	res.status(200).json({ name: "Jay" });
-};
+	res.status(200).json({ name: 'Jay' })
+}
 
-export default withHighlight(handler);
-
+export default withHighlight(handler)
 ```
-

@@ -6,7 +6,7 @@ updatedAt: 2022-01-27T19:51:23.000Z
 ---
 
 ```hint
-Proxying is only available starting on our [Startup tier](https://www.highlight.run/pricing). If you would like use this, you will need to reach out to <support@highlight.run>.&#x20;
+Proxying is only available starting on our [Startup tier](https://www.highlight.run/pricing). If you would like use this, you will need to reach out to <support@highlight.run>.
 
 
 ```
@@ -23,7 +23,7 @@ One way we can avoid this is by setting up proxy from your domain to Highlight. 
 
 3.  Send us an email (support\@highlight.run) or intercom ticket with your domain
 
-Below is an example email/message that you can send over.&#x20;
+Below is an example email/message that you can send over.
 
 > Hello!
 >
@@ -38,12 +38,9 @@ You have an app running on `https://piedpiper.com`. Your DNS record will point `
 In your app where you call [H.init()](/api/client/h-init), you will need to set `backendUrl` to the DNS record you just created. For the example above:
 
 ```javascript
-H.init(
-    "<YOUR_PROJECT_ID>",
-    {
-        backendUrl: "https://highlight.piedpiper.com"
-    }
-)
+H.init('<YOUR_PROJECT_ID>', {
+	backendUrl: 'https://highlight.piedpiper.com',
+})
 ```
 
 You should now see Highlight making requests to `https://highlight.piedpiper.com` instead of `https://pub.highlight.run`.

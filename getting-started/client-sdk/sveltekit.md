@@ -14,13 +14,11 @@ Let's get you up and running with Highlight. **We should be done in less than 2 
 You will need to initialize and start Highlight in your SvelteKit application. You can do so by making the following change in `index.html`.
 
 ```html
-...
-
-%svelte.head%
+... %svelte.head%
 
 <script src="https://cdn.jsdelivr.net/npm/highlight.run@latest"></script>
 <script>
-	window.H.init('<YOUR_PROJECT_ID>');
+	window.H.init('<YOUR_PROJECT_ID>')
 </script>
 
 ...

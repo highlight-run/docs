@@ -11,7 +11,7 @@ Highlight records [Tracking Events](/session-replay/tracking-events) and other m
 
 # Searching by User Clicks
 
-When using Highlight, you might be interested in querying for sessions where a user clicked a certain HTML element. Highlight records users' clicks on the page as two queryable properties: `clickSelector` and `clickInnerText`.&#x20;
+When using Highlight, you might be interested in querying for sessions where a user clicked a certain HTML element. Highlight records users' clicks on the page as two queryable properties: `clickSelector` and `clickInnerText`.
 
 1.  `clickSelector` is the HTML Element's target's selector, concatinating the element's `tag`, `id ` and `class` values.
 
@@ -25,4 +25,3 @@ You can also visualize what Highlight is tracking by looking at your site's cons
 You can then use the session filters to search for text in the two fields.
 
 ![](https://archbee-image-uploads.s3.amazonaws.com/XPwQFz8tul7ogqGkmtA0y/2ckH93jnzBYqpCeeTWOXT_image.png)
-
