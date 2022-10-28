@@ -28,13 +28,13 @@ Get started with one of these guides if you're using a listed framework:
 Install `highlight.run` using your package manager.
 
 ```codeblocktabs
-```none
++++none
 npm install highlight.run
-```
++++
 
-```shell
++++shell
 yarn add highlight.run
-```
++++
 ```
 
 ## Initialize

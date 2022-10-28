@@ -14,13 +14,13 @@ Let's get you up and running with Highlight. **We should be done in less than 2 
 Install `highlight.run` and `@highlight-run/react` using your package manager.
 
 ```codeblocktabs
-```none
++++none
 npm install highlight.run @highlight-run/react
-```
++++
 
-```shell
++++shell
 yarn add highlight.run @highlight-run/react
-```
++++
 ```
 
 ## Initialize
