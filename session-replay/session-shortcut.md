@@ -18,4 +18,3 @@ For example, if you set `Ctrl` + `0` as the session shortcut, pressing `Ctrl` + 
 1.  Share the session (See [Session Sharing](/session-replay/session-sharing))
 
 2.  Create a comment and tag the directly responsible person (See [Comments](/product-features/comments))
-

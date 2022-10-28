@@ -14,4 +14,3 @@ To get started, go to <https://app.highlight.run/alerts> and click the "Sync wit
 1.  [Comments](/product-features/comments) will send a Slack message to whoever is tagged in a comment
 
 2.  [Alerts](/product-features/alerts) will send a Slack message to channels or users who want to receive alerts
-

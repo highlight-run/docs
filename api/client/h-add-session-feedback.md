@@ -13,17 +13,17 @@ If you don't want to implement your own UI to collect feedback, you can use the 
 H.addSessionFeedback(feedbackOptions: SessionFeedbackOptions) => void;
 ```
 
-## `feedbackOptions` *(SessionFeedbackOptions)*
+## `feedbackOptions` _(SessionFeedbackOptions)_
 
-### `verbatim` *(string)* Required
+### `verbatim` _(string)_ Required
 
 The feedback string that a user has inputted into your app.
 
-### `userName` *(string)*
+### `userName` _(string)_
 
 The user's name. This is only required if you have not called [H.identify()](/api/client/h-identify).
 
-### `userEmail` *(string)*
+### `userEmail` _(string)_
 
 The user's email. This is only required if you have not called [H.identify()](/api/client/h-identify).
 
@@ -31,7 +31,7 @@ The user's email. This is only required if you have not called [H.identify()](/a
 
 ```typescript
 H.addSessionFeedback({
-    verbatim: 'I L O V E the new feature that shows me cat gifs. Please keep shipping features like this!'
+	verbatim:
+		'I L O V E the new feature that shows me cat gifs. Please keep shipping features like this!',
 })
 ```
-

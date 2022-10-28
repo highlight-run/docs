@@ -12,4 +12,3 @@ Do you use [Front.com](https://app.frontapp.com/) to communicate with your custo
 Simply visit [](https://app.frontapp.com/settings/tools)<https://front.com/integrations/highlight> and add the Highlight plugin in one click.
 
 Click the [Get Started](https://app.frontapp.com/settings/integrations/native/edit/highlight) button to add Highlight to your Front workspace.
-

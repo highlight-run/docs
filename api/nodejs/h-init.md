@@ -16,11 +16,11 @@ init: (options: NodeOptions) => void
 ## Example Usage
 
 ```typescript
-import { H } from "@highlight-run/node";
+import { H } from '@highlight-run/node'
 
-const highlightOptions = {};
+const highlightOptions = {}
 if (!H.isInitialized()) {
-  H.init(highlightOptions);
+	H.init(highlightOptions)
 }
 ```
 
@@ -28,9 +28,8 @@ if (!H.isInitialized()) {
 
 `disableErrorSourceContext` : optional boolean, default false
 
-*   Disables source code context lines for error reporting. This may be useful for performance if your source files are particularly large or memory is limited.
+-   Disables source code context lines for error reporting. This may be useful for performance if your source files are particularly large or memory is limited.
 
 `errorSourceContextCacheSizeMB` : optional number, default 10
 
-*   Source files are cached in memory to speed up error reporting and avoid costly disk access. The default cache size is 10MB, but this can be overridden. Specifying a value <= 0 removes all cache size limits.
-
+-   Source files are cached in memory to speed up error reporting and avoid costly disk access. The default cache size is 10MB, but this can be overridden. Specifying a value <= 0 removes all cache size limits.

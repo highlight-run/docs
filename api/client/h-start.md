@@ -13,18 +13,17 @@ H.start(options: StartOptions)
 
 ### `options`
 
-*   `silent` (`boolean`): specifies whether `console.warn` messages created in this method should be skipped.
+-   `silent` (`boolean`): specifies whether `console.warn` messages created in this method should be skipped.
 
 ## Example
 
 ```typescript
-H.init("<YOUR_PROJECT_ID>", {
-    manualStart: true
-});
+H.init('<YOUR_PROJECT_ID>', {
+	manualStart: true,
+})
 
 // Elsewhere in your app
 H.start({
-    silent: false
-});
+	silent: false,
+})
 ```
-

@@ -13,14 +13,14 @@ Here's an example of disabling Highlight while developing locally with H.init():
 
 ```javascript
 if (process.env.ENVIRONMENT !== 'dev') {
-    H.init("<YOUR_PROJECT_ID");
-};
+	H.init('<YOUR_PROJECT_ID')
+}
 ```
 
 Here's an example of disabling Highlight while developing locally with environment variables:
 
 ```javascript
-H.init(process.env.HIGHLIGHT_PROJECT_ID); // process.env.HIGHLIGHT_PROJECT_ID is undefined.
+H.init(process.env.HIGHLIGHT_PROJECT_ID) // process.env.HIGHLIGHT_PROJECT_ID is undefined.
 ```
 
 ## Console Log Messages
@@ -36,9 +36,7 @@ To prevent this from happening, you can:
 Here's an example of how you disable console message recording locally.
 
 ```typescript
-H.init("<YOUR_PROJECT_ID", {
-    disableConsoleRecording: process.env.ENVIRONMENT === 'dev'
-});
+H.init('<YOUR_PROJECT_ID', {
+	disableConsoleRecording: process.env.ENVIRONMENT === 'dev',
+})
 ```
-
-

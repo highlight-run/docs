@@ -11,7 +11,7 @@ We've made it super easy to onboard new members to Highlight. All you need to do
 
 1.  Type in your teammate's email
 
-2.  Copy the invite link and share it&#x20;
+2.  Copy the invite link and share it
 
 ## Domain Auto Join
 
@@ -22,4 +22,3 @@ If you have a large team, adding individual members can be pretty tedious. We've
 You work at Pied Piper. Your company email is `@piedpiper.com`. On the workspace, if you enable domain auto join and set the allowed origin as `piedpiper.com`, then anyone with a `piedpiper.com` email will be able to join.
 
 Highlight makes sure to deal with imposters by requiring non-OAuth users to verify their emails.
-

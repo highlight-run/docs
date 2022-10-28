@@ -9,9 +9,9 @@ updatedAt: 2022-04-01T20:40:53.000Z
 
 Highlight's Full-stack integration allows you to get visibility into errors and issues across your whole stack, not just your frontend. These errors are paired with outgoing requests on your frontend so that you can understand:
 
-*   Exactly what happened when a user reports a bug
+-   Exactly what happened when a user reports a bug
 
-*   Where specific errors are initiated and what caused them
+-   Where specific errors are initiated and what caused them
 
 See errors and their relevant details in the same session timeline where you can find out exactly what a user was doing that led up to the issue.
 
@@ -60,11 +60,11 @@ Backend changes are dependent on the underlying language/framework used on the s
 
 Below are solutions for what we support today.
 
-[Go Backend Integration](/getting-started/backend-sdk/go)&#x20;
+[Go Backend Integration](/getting-started/backend-sdk/go)
 
 [Next.js Backend Integration](/getting-started/backend-sdk/nextjs)
 
-[Express Backend Integration](/getting-started/backend-sdk/express) &#x20;
+[Express Backend Integration](/getting-started/backend-sdk/express)
 
 ## Troubleshooting
 
@@ -72,4 +72,4 @@ Below are solutions for what we support today.
 
 2.  Ensure your backend has `CORS` configured for your frontend hostname, explicitely allowing header `x-highlight-request`.
 
-3.  For debugging the backend SDK, enable verbose logging. For example, in go, add `highlight.SetDebugMode(myLogger)`&#x20;
+3.  For debugging the backend SDK, enable verbose logging. For example, in go, add `highlight.SetDebugMode(myLogger)`

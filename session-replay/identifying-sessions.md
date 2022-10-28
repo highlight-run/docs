@@ -9,7 +9,7 @@ To tag sessions with user-specific identifiers (name, email, etc.), you can call
 
 ```none
 H.identify(
-  "eliza@corp.com", 
+  "eliza@corp.com",
   { id: "ajdf837dj", phone: "867-5309" }
 )
 ```
@@ -22,7 +22,7 @@ By default, Highlight will show the `identifier` as the user's display name on t
 
 You can replace the placeholder user avatars Highlight uses with an image that you provide. You can do this by setting the `avatar` field in the [`H.identify()`](/api/client/h-identify) metadata.
 
-The image URL usually comes from your authentication provider (Firebase, Auth0, Active Directory, etc.). You can forward that URL to Highlight.&#x20;
+The image URL usually comes from your authentication provider (Firebase, Auth0, Active Directory, etc.). You can forward that URL to Highlight.
 
 ```hint
 ## Saving the image
@@ -31,10 +31,7 @@ Highlight does not make a copy of the image. Highlight will render the image dir
 ```
 
 ```typescript
-H.identify(
-  "steven@corp.com",
-  { avatar: "https://<IMAGE_URL>.png" }
-)
+H.identify('steven@corp.com', { avatar: 'https://<IMAGE_URL>.png' })
 ```
 
 ## API
@@ -46,4 +43,3 @@ See the [H.identify()](/api/client/h-identify) API documentation for more inform
 All key session information is tracked regardless of whether a session is identified. Highlight will generate an identifier for a user which you can see in the session player unless you set your own by calling [H.identify()](/api/client/h-identify).
 
 When a user is identified we will attempt to **assign their information to previous sessions** from the same browser. If this happens you will see an indicator in the UI showing the data was inferred for a session and that the session was never explicitly identified.
-

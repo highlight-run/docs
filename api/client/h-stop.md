@@ -14,9 +14,8 @@ H.stop()
 ## Example
 
 ```typescript
-H.init("<YOUR_PROJECT_ID>");
+H.init('<YOUR_PROJECT_ID>')
 
 // Elsewhere in your app
-H.stop();
+H.stop()
 ```
-

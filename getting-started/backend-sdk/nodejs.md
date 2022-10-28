@@ -25,26 +25,24 @@ H.init('<YOUR_PROJECT_ID>', {
 
 First, import the package
 
-:::codeblocktabs
 ```shell
+# with npm
 npm install @highlight-run/node
-```
 
-```shell
+# with yarn
 yarn add @highlight-run/node
 ```
-:::
 
 ### Initialize the Highlight backend
 
 Somewhere in your app, typically during startup or when handling errors, initialize the Highlight backend with any necessary options. See [H.init()](/api/nodejs/h-init) for a full list of options.
 
 ```typescript
-import { H } from "@highlight-run/node";
+import { H } from '@highlight-run/node'
 
-const highlightOptions = {};
+const highlightOptions = {}
 if (!H.isInitialized()) {
-    H.init(highlightOptions);
+	H.init(highlightOptions)
 }
 ```
 
@@ -53,17 +51,16 @@ if (!H.isInitialized()) {
 When your app throws a backend error, you can log that error to Highlight by calling [H.consumeError()](/api/nodejs/h-consume-error) using the `secureSessionId` and `requestId` parameters from the request's header. Your error handling code will depend on the backend framework you use, but will likely look something like this:
 
 ```typescript
-import { H } from "@highlight-run/node";
+import { H } from '@highlight-run/node'
 
 const onError = (request, error) => {
-	const parsed = H.parseHeaders(request.headers);
+	const parsed = H.parseHeaders(request.headers)
 	if (parsed !== undefined) {
-		H.consumeError(error, parsed.secureSessionId, parsed.requestId);
+		H.consumeError(error, parsed.secureSessionId, parsed.requestId)
 	}
-};
+}
 ```
 
 ### Verify
 
 To view and resolve the recorded error, log into [app.highlight.run/errors](app.highlight.run/errors) and open your project. Clicking on the error's title will open a page where you can see detailed information and mark it as resolved. You can also view frontend sessions where the error was thrown, and see the individual request which caused the error.
-

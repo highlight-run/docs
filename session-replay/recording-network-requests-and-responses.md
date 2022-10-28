@@ -26,16 +26,14 @@ Highlight can also record the request/response headers and bodies. You'll be abl
 
 ```typescript
 H.init('<YOUR_PROJECT_ID>', {
-  networkRecording: {
-    enabled: true,
-    recordHeadersAndBody: true,
-  }
+	networkRecording: {
+		enabled: true,
+		recordHeadersAndBody: true,
+	},
 })
 ```
 
 ![](https://archbee-image-uploads.s3.amazonaws.com/XPwQFz8tul7ogqGkmtA0y/HMhiHwF_jifyGh-RXMJHk_network-recording.gif)
-
-
 
 ## Redacting URLs
 
@@ -43,8 +41,12 @@ You may have APIs that you know will always return secrets in the headers, body,
 
 ```typescript
 H.init('<YOUR_ORGANIZATION_ID>', {
-  networkRecording: true,
-  urlBlocklist: ['https://salted-passwords.com', 'https://www.googleapis.com/identitytoolkit', 'https://securetoken.googleapis.com']
+	networkRecording: true,
+	urlBlocklist: [
+		'https://salted-passwords.com',
+		'https://www.googleapis.com/identitytoolkit',
+		'https://securetoken.googleapis.com',
+	],
 })
 ```
 
@@ -61,4 +63,3 @@ This configuration is only available for `highlight.run` versions newer than `4.
 ## API
 
 See [NetworkRecordingOptions](/api/client/h-init) for more information on how to configure network recording.
-

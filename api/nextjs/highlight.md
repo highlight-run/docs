@@ -6,7 +6,10 @@ updatedAt: 2022-10-24T22:58:52.000Z
 ---
 
 ```typescript
-Highlight = (options?: NodeOptions) => <T>(origHandler: NextApiHandler<T>) => NextApiHandler<T>;
+Highlight =
+	(options?: NodeOptions) =>
+	<T>(origHandler: NextApiHandler<T>) =>
+		NextApiHandler<T>
 ```
 
 ## Purpose
@@ -18,28 +21,27 @@ Highlight = (options?: NodeOptions) => <T>(origHandler: NextApiHandler<T>) => Ne
 Typically, you would configure any necessary settings, and then export a common wrapper you can use to wrap all of your API handlers.
 
 ```typescript
-import { Highlight } from "@highlight-run/next";
+import { Highlight } from '@highlight-run/next'
 
-export const withHighlight = Highlight();
+export const withHighlight = Highlight()
 ```
 
 ```typescript
-import { withHighlight } from "../highlight.config";
+import { withHighlight } from '../highlight.config'
 
 const handler = async (req, res) => {
-	res.status(200).json({ name: "Jay" });
-};
+	res.status(200).json({ name: 'Jay' })
+}
 
-export default withHighlight(handler);
+export default withHighlight(handler)
 ```
 
 ## Options
 
 `disableErrorSourceContext` : optional boolean, default false
 
-*   Disables source code context lines for error reporting. This may be useful for performance if your source files are particularly large or memory is limited.
+-   Disables source code context lines for error reporting. This may be useful for performance if your source files are particularly large or memory is limited.
 
 `errorSourceContextCacheSizeMB` : optional number, default 10
 
-*   Source files are cached in memory to speed up error reporting and avoid costly disk access. The default cache size is 10MB, but this can be overridden. Specifying a value <= 0 removes all cache size limits.
-
+-   Source files are cached in memory to speed up error reporting and avoid costly disk access. The default cache size is 10MB, but this can be overridden. Specifying a value <= 0 removes all cache size limits.

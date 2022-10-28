@@ -7,9 +7,8 @@ updatedAt: 2022-04-06T20:22:54.000Z
 
 Highlight supports several server frameworks written in Go.
 
-*   go-chi/chi
-
-*   gin-gonic/gin
+-   go-chi/chi
+-   gin-gonic/gin
 
 # Usage
 
@@ -35,14 +34,14 @@ func main() {
 
 ```
 
-*   This configures highlight to transmit any relevant events or errors as they may happen. You can also customize highlight by using the public highlight methods before calling `Start()`. However, we still need to associate your users' sessions with potential backend errors. We provide middleware packages that help set this up:
+-   This configures highlight to transmit any relevant events or errors as they may happen. You can also customize highlight by using the public highlight methods before calling `Start()`. However, we still need to associate your users' sessions with potential backend errors. We provide middleware packages that help set this up:
 
 ### Middleware
 
 Add the following middleware to your router:
 
-```codeblocktabs
 ```go
+// with chi
 import (
 	highlightChi "github.com/highlight-run/highlight-go/middleware/chi"
 )
@@ -54,9 +53,7 @@ func main() {
 	//...
 }
 
-```
-
-```go
+// with gin
 import (
 	highlightGin "github.com/highlight-run/highlight-go/middleware/gin"
 )
@@ -69,16 +66,16 @@ func main() {
 }
 
 ```
-```
 
 ## Instrumenting Handlers
 
 Great! Now we've configured the highlight client and can track sessions from the frontend to the backend. All we need to do now is instrument our backend code to transmit events or errors where relevant.
 
-```codeblocktabs
 ```go
+
 package main
 
+// with chi
 import (
 	"errors"
 	"github.com/go-chi/cors"
@@ -117,11 +114,7 @@ func PingHandler(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("welcome"))
 }
 
-```
-
-```go
-package main
-
+// with gin
 import (
 	"errors"
 	"github.com/gin-contrib/cors"
@@ -157,12 +150,4 @@ func PingHandler(c *gin.Context) {
 		"message": "Hello, World!",
 	})
 }
-
 ```
-```
-
-
-
-
-
-#

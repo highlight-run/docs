@@ -11,7 +11,7 @@ This method is used to add an identity to a user for the session. You can learn 
 H.identify(identifier: string, metadata?: [key: string]: string | boolean | number) => void;
 ```
 
-## `identifier` *(string)* Required
+## `identifier` _(string)_ Required
 
 The identifier for the user in the session. This is often an email or UUID.
 
@@ -22,10 +22,9 @@ Metadata for the user. You can think of these as additional tags for the user. I
 ### Example
 
 ```typescript
-H.identify("alice@corp.com", {
-    highlightDisplayName: "Alice Customer",
-    accountType: "premium",
-    hasUsedFeature: true
-});
+H.identify('alice@corp.com', {
+	highlightDisplayName: 'Alice Customer',
+	accountType: 'premium',
+	hasUsedFeature: true,
+})
 ```
-

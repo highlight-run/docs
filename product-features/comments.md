@@ -36,4 +36,3 @@ You can tag Slack users or channels in comments after connecting Highlight with 
 ### Linear Integration
 
 You can create issues in Linear as you add comments. Within a comment, select "Create a Linear issue" from the issues dropdown. On the next page, you'll be prompted to optionally edit the issue title and description. Once you save the comment, an issue is created and linked to in Linear.
-

@@ -24,4 +24,3 @@ if you're a keyboard warrior, then the keyboard shortcuts will help you move fas
 | Inspect element                        | `d`                       |
 | Toggle left sidebar                    | `⌘` + `b` or `Ctrl` + `b` |
 | Toggle right sidebar                   | `⌘` + `i` or `Ctrl` + `i` |
-

@@ -7,19 +7,19 @@ updatedAt: 2022-10-14T00:25:20.000Z
 
 These are the [H.init()](/api/client/h-init) options to configure how and what network requests/responses Highlight records. You can see [Recording Network Requests and Responses](/session-replay/recording-network-requests-and-responses) for more information about the feature.
 
-## `enabled` *(boolean)*
+## `enabled` _(boolean)_
 
-&#x20;Enables recording of network requests. The data includes the URLs, the size of the request, and how long the request took.
+Enables recording of network requests. The data includes the URLs, the size of the request, and how long the request took.
 
 The default value is `true`.
 
-## `recordHeadersAndBody` *(boolean)*
+## `recordHeadersAndBody` _(boolean)_
 
 This enables recording `XMLHttpRequest` and `Fetch` headers and bodies.
 
 The default value is `false`.
 
-## `networkHeadersToRedact` *(string\[])*
+## `networkHeadersToRedact` _(string\[])_
 
 Request and response headers where the value is not recorded. The header value is replaced with `'[REDACTED]'`. These headers are case-insensitive.
 
@@ -28,36 +28,37 @@ Request and response headers where the value is not recorded. The header value i
 ### Example
 
 ```typescript
-H.init("<YOUR_PROJECT_ID>", {
-    networkRecording: {
-        recordHeadersAndBody: true,
-        networkHeadersToRedact: ['Secret-Header', 'Plain-Text-Password']
-    }
+H.init('<YOUR_PROJECT_ID>', {
+	networkRecording: {
+		recordHeadersAndBody: true,
+		networkHeadersToRedact: ['Secret-Header', 'Plain-Text-Password'],
+	},
 })
 ```
 
-## `urlBlocklist` *(string\[])*
+## `urlBlocklist` _(string\[])_
 
-URLs to not record headers and bodies for. To disable recording headers and bodies for all URLs, set  `recordHeadersAndBody` to `false`.
+URLs to not record headers and bodies for. To disable recording headers and bodies for all URLs, set `recordHeadersAndBody` to `false`.
 
 A request's header/body will be ignored if the network request's URL contains one of the `urlBlocklist` entries.
 
 ### Example
 
 ```typescript
-H.init("<YOUR_PROJECT_ID>", {
-    networkRecording: {
-        recordHeadersAndBody: true,
-        urlBlocklist: ['https://www.googleapis.com/identitytoolkit', 'https://securetoken.googleapis.com']
-    }
+H.init('<YOUR_PROJECT_ID>', {
+	networkRecording: {
+		recordHeadersAndBody: true,
+		urlBlocklist: [
+			'https://www.googleapis.com/identitytoolkit',
+			'https://securetoken.googleapis.com',
+		],
+	},
 })
 ```
 
 The default value is listed in [Recording Network Requests and Responses](/session-replay/recording-network-requests-and-responses).
 
-
-
-## `headerKeysToRecord` *(string\[])*
+## `headerKeysToRecord` _(string\[])_
 
 Specifies the keys for request/response headers to record.
 
@@ -68,25 +69,25 @@ Only available in `highlight.run` versions newer than `4.1.0`.
 ### Example
 
 ```javascript
-H.init("YOUR_PROJECT_ID", {
-    networkRecording: {
-        recordHeadersAndBody: true,
-        headerKeysToRecord: ['id', 'pageNumber']
-    }
+H.init('YOUR_PROJECT_ID', {
+	networkRecording: {
+		recordHeadersAndBody: true,
+		headerKeysToRecord: ['id', 'pageNumber'],
+	},
 })
 
 // Only `headers.id` and `headers.pageNumber` will be recorded.
 headers = {
-    'id': '123',
-    'pageNumber': '1',
-    'secret-token': 'super-sensitive-value',
-    'plain-text-password': 'password123',
+	id: '123',
+	pageNumber: '1',
+	'secret-token': 'super-sensitive-value',
+	'plain-text-password': 'password123',
 }
 ```
 
 See [Recording Network Requests and Responses](/session-replay/recording-network-requests-and-responses) for more information.
 
-## `bodyKeysToRecord` *(string\[])*
+## `bodyKeysToRecord` _(string\[])_
 
 Specifies the keys for request/response bodies to record.
 
@@ -95,25 +96,25 @@ Only available in `highlight.run` versions newer than `4.1.0`.
 ### Example
 
 ```javascript
-H.init("YOUR_PROJECT_ID", {
-    networkRecording: {
-        recordHeadersAndBody: true,
-        bodyKeysToRecord: ['id', 'pageNumber']
-    }
+H.init('YOUR_PROJECT_ID', {
+	networkRecording: {
+		recordHeadersAndBody: true,
+		bodyKeysToRecord: ['id', 'pageNumber'],
+	},
 })
 
 // Only `body.id` and `body.pageNumber` will be recorded.
 body = {
-    'id': '123',
-    'pageNumber': '1',
-    'secret-token': 'super-sensitive-value',
-    'plain-text-password': 'password123',
+	id: '123',
+	pageNumber: '1',
+	'secret-token': 'super-sensitive-value',
+	'plain-text-password': 'password123',
 }
 ```
 
 See [Recording Network Requests and Responses](/session-replay/recording-network-requests-and-responses) for more information.
 
-## `destinationDomains` *(string\[])*
+## `destinationDomains` _(string\[])_
 
 Record frontend network request metrics that are sent to the following list of domains. A domain substring match is used to determine if a network request matches one of the following values.
 
@@ -122,10 +123,10 @@ Only available in `highlight.run` versions newer than `4.4.0`.
 ### Example
 
 ```javascript
-H.init("YOUR_PROJECT_ID", {
-    networkRecording: {
-        destinationDomains: ['backend.example.com']
-    }
+H.init('YOUR_PROJECT_ID', {
+	networkRecording: {
+		destinationDomains: ['backend.example.com'],
+	},
 })
 
 // Only network requests to the domains listed will have their metrics recorded
@@ -133,4 +134,3 @@ H.init("YOUR_PROJECT_ID", {
 ```
 
 See [Recording Network Requests and Responses](/session-replay/recording-network-requests-and-responses) for more information.
-

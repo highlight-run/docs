@@ -13,23 +13,23 @@ Let's get you up and running with Highlight. **You should be done and able to se
 
 A session in Highlight starts in the client. Installing Highlight on one of our supported platforms is required to start using Highlight. Follow the instructions in our [Client SDK](/getting-started/client-sdk) guide to get started!
 
-Highlight currently supports:&#x20;
+Highlight currently supports:
 
-*   [React.js](/getting-started/client-sdk/reactjs)&#x20;
+-   [React.js](/getting-started/client-sdk/reactjs)
 
-*   [Next.js](/getting-started/client-sdk/nextjs)&#x20;
+-   [Next.js](/getting-started/client-sdk/nextjs)
 
-*   [Vue.js](/getting-started/client-sdk/vuejs)&#x20;
+-   [Vue.js](/getting-started/client-sdk/vuejs)
 
-*   [Gatsby.js](/getting-started/client-sdk/gatsbyjs)&#x20;
+-   [Gatsby.js](/getting-started/client-sdk/gatsbyjs)
 
-*   [HTML](/getting-started/client-sdk/html)
+-   [HTML](/getting-started/client-sdk/html)
 
-*   [SvelteKit](/getting-started/client-sdk/sveltekit)&#x20;
+-   [SvelteKit](/getting-started/client-sdk/sveltekit)
 
-*   [Angular](/getting-started/client-sdk/angular)&#x20;
+-   [Angular](/getting-started/client-sdk/angular)
 
-*   and more...
+-   and more...
 
 ## Backend SDK (Beta)
 

@@ -15,18 +15,17 @@ You've just shipped a new feature, a button that when clicked, shows a random gi
 
 ```typescript
 H.addSessionFeedback({
-    verbatim: 'WOW! I really liked the gif I was shown'
-});
+	verbatim: 'WOW! I really liked the gif I was shown',
+})
 
 H.addSessionFeedback({
-    verbatim: 'the gif was meh',
-    userEmail: 'alice@corp.com'
-});
+	verbatim: 'the gif was meh',
+	userEmail: 'alice@corp.com',
+})
 
 H.addSessionFeedback({
-    verbatim: 'i need more gifs!!!!',
-    userEmail: 'bob@corp.com',
-    userName: 'Bob Hyle'
-});
+	verbatim: 'i need more gifs!!!!',
+	userEmail: 'bob@corp.com',
+	userName: 'Bob Hyle',
+})
 ```
-

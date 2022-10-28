@@ -14,13 +14,13 @@ Highlight provides an `ErrorBoundary` to help you provide a better experience fo
 Highlight also allows you to show a crash report powered by [User Feedback](/product-features/user-feedback). A crash report is shown in the session when the crash happens, giving you the context for the user feedback.
 
 ```typescript
-import { ErrorBoundary } from '@highlight-run/react';
+import { ErrorBoundary } from '@highlight-run/react'
 
 const App = () => (
-    <ErrorBoundary showDialog>
-       <YourAwesomeApplication />
-    </ErrorBoundary>
-);
+	<ErrorBoundary showDialog>
+		<YourAwesomeApplication />
+	</ErrorBoundary>
+)
 ```
 
 ## Examples
@@ -30,13 +30,13 @@ const App = () => (
 ![](https://archbee-image-uploads.s3.amazonaws.com/XPwQFz8tul7ogqGkmtA0y/2VUVTR1ot591xUfJZSc3m_2022-01-1213-17.png)
 
 ```typescript
-import { ErrorBoundary } from '@highlight-run/react';
+import { ErrorBoundary } from '@highlight-run/react'
 
 const App = () => (
-    <ErrorBoundary showDialog>
-       <YourAwesomeApplication />
-    </ErrorBoundary>
-);
+	<ErrorBoundary showDialog>
+		<YourAwesomeApplication />
+	</ErrorBoundary>
+)
 ```
 
 ### Showing a custom feedback modal when a crash happens
@@ -44,37 +44,37 @@ const App = () => (
 You should use this if you would like to replace the feedback modal with your own styles/branding.
 
 ```typescript
-import { ErrorBoundary } from '@highlight-run/react';
+import { ErrorBoundary } from '@highlight-run/react'
 
 const App = () => (
-    <ErrorBoundary
-        showDialog
-        customDialog={
-            <div>
-                <h2>Whoops! Looks like a crash happened.</h2>
-                <p>Don't worry, our team is tracking this down!</p>
+	<ErrorBoundary
+		showDialog
+		customDialog={
+			<div>
+				<h2>Whoops! Looks like a crash happened.</h2>
+				<p>Don't worry, our team is tracking this down!</p>
 
-                <form>
-                    <label>
-                        Feedback
-                        <input type="text" />
-                    </label>
+				<form>
+					<label>
+						Feedback
+						<input type="text" />
+					</label>
 
-                    <button type="submit">Send Feedback</button>
-                </form>
-            </div>
-        }
-    >
-       <YourAwesomeApplication />
-    </ErrorBoundary>
-);
+					<button type="submit">Send Feedback</button>
+				</form>
+			</div>
+		}
+	>
+		<YourAwesomeApplication />
+	</ErrorBoundary>
+)
 ```
 
 ## ErrorBoundary API
 
 ### `fallback`
 
-A fallback component that gets rendered when the error boundary encounters an error.&#x20;
+A fallback component that gets rendered when the error boundary encounters an error.
 
 ## `showDialog`
 
@@ -126,7 +126,6 @@ The label for the success message shown after the crash report is submitted.
 
 `hideHighlightBranding`
 
-Whether to show the Highlight branding attribution in the report dialog.&#x20;
+Whether to show the Highlight branding attribution in the report dialog.
 
 Default value is `false`.
-

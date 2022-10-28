@@ -17,4 +17,4 @@ Recording WebGL is disabled by default. To enable WebGL recording, enable canvas
 
 ## Caveats
 
-*   [Privacy](/session-replay/privacy) controls do not apply to WebGL right now
+-   [Privacy](/session-replay/privacy) controls do not apply to WebGL right now

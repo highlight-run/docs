@@ -11,8 +11,6 @@ To share a session, click the share button then toggle "Allow anyone with the li
 
 ![](https://archbee-image-uploads.s3.amazonaws.com/XPwQFz8tul7ogqGkmtA0y/VP2fOjqJrYK3G4HYTepwX_sharing-a-session.gif)
 
-
-
 To unshare a session, untoggle the "Allow anyone with the link to access this sessions.".
 
 ## What is shared?
@@ -26,4 +24,3 @@ When you share a session, all data for the session is made public. This includes
 3.  Events
 
 4.  Comments
-
