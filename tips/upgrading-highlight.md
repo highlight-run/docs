@@ -12,11 +12,11 @@ If Highlight ships a breaking change (new feature, security fix, etc.), we'll ne
 ## Using a Package Manager
 
 ```codeblocktabs
-+++curl
++++npm
 npm install highlight.run@latest
 +++
 
-+++none
++++yarn
 yarn upgrade highlight.run@latest
 +++
 ```

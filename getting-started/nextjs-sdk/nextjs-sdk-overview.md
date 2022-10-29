@@ -39,11 +39,11 @@ If you are not using Vercel or would like to configure this manually, you can se
 Import the `@highlight-run/next` Package
 
 ```codeblocktabs
-+++shell
++++yarn
 npm install @highlight-run/next
 +++
 
-+++shell
++++yarn
 yarn add @highlight-run/next
 +++
 ```
