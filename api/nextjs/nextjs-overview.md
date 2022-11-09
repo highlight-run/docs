@@ -1,5 +1,5 @@
 ---
-title: Next.JS
+title: Overview
 slug: nextjs
 ---
 
