@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Client
 slug: api
 ---
 
