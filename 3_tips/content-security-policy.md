@@ -14,7 +14,7 @@ You should keep reading this if your application runs in an environment that enf
 Here are the policies you'll need to set to use Highlight:
 
 1.  `script-src`: `https://static.highlight.io`
-    1.  This policy is to allow downloading the Highlight runtime code for session recording and error monitoring, as well as the unpkg web vitals reporting bundle used by Highlight.
+    1.  This policy is to allow downloading the Highlight runtime code for session recording and error monitoring.
     2.  If you are using a [version of highlight.run < 5.0](https://www.npmjs.com/package/highlight.run/v/5.0.0), change the domain `static.highlight.io` to `static.highlight.run`.
 2.  `connect-src`: `https://pub.highlight.run`
     1.  This policy is to allow connecting with Highlight servers to receive recorded session data.
