@@ -1,35 +1,19 @@
 ---
-title: Client
+title: Client SDK API Reference
 slug: client
 ---
 
 <section className="section">
   <div className="left">
-    <h3>Node.js SDK Reference <code>test</code></h3>
+    <h3>Client SDK</h3>
     <p>
-      The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
-      <br />
-      The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
-      <br />
-      The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
+      The Highlight client records and sends session data to Highlight. The Highlight client SDK contains functions to configure your recording, start and stop recording, and add custom user metadata and properties.
     </p>
 
   </div>
   <div className="right">
-
-    <h6>Using a fancier framework?</h6>
-
-    <p>The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, </p>
-
-    <h6>Something about typescript?</h6>
-
-    <p>The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request </p>
-
+    <h6>Just getting started?</h6>
+    <p>Check out our [getting started guide](/getting-started/client-sdk/overview) to get up and running quickly.</p>
   </div>
 </section>
 
@@ -49,7 +33,7 @@ slug: client
         <aside className="innerParameterHeading">options properties</aside>
         <aside className="parameter">
           <h5>backendUrl <code>string</code> <code>optional</code></h5>
-          <p>Specifies the URL that Highlight will send data to. You should not use this unless you are running an on-premise instance. You may be interested in Proxying to make sure your errors and sessions are not blocked by extensions.</p>
+          <p>Specifies the URL that Highlight will send data to. You should not use this unless you are running an on-premise instance. You may be interested in [Proxying](/tips/proxying-highlight) to make sure your errors and sessions are not blocked by extensions.</p>
         </aside>
         <aside className="parameter">
           <h5>manualStart <code>boolean</code> <code>optional</code></h5>
@@ -69,35 +53,35 @@ slug: client
         </aside>
         <aside className="parameter">
           <h5>environment <code>string</code> <code>optional</code></h5>
-          <p>Specifies the environment your application is running in. See Environments to see how setting the environment can help you move faster. The default value is production.</p>
+          <p>Specifies the environment your application is running in. See [Environments](/product-features/environments) to see how setting the environment can help you move faster. The default value is production.</p>
         </aside>
         <aside className="parameter">
           <h5>networkRecording <code>NetworkRecordingOptions</code> <code>optional</code></h5>
-          <p>Specifies how and what network requests and responses Highlight records. See Recording Network Requests and Responses for more information.</p>
+          <p>Specifies how and what network requests and responses Highlight records. See [Recording Network Requests and Responses](/session-replay/recording-network-requests-and-responses) for more information.</p>
         </aside>
         <aside className="parameter">
           <h5>version <code>string</code> <code>optional</code></h5>
-          <p>Specifies the version of your application. See Versioning Sessions and Versioning Errors to see how setting the version can help you move faster.</p>
+          <p>Specifies the version of your application. See [Versioning Sessions](/session-replay/versioning-sessions) and [Versioning Errors](/error-monitoring/versioning-errors) to see how setting the version can help you move faster.</p>
         </aside>
         <aside className="parameter">
           <h5>enableStrictPrivacy <code>boolean</code> <code>optional</code></h5>
-          <p>Specifies whether Highlight should redact all text and image data during recording. This is useful to make sure you are not recording any personally identifiable information without having to manually add annotations to elements you don't want to be recorded. See Privacy to learn more about the privacy options. The default value is false.</p>
+          <p>Specifies whether Highlight should redact all text and image data during recording. This is useful to make sure you are not recording any personally identifiable information without having to manually add annotations to elements you don't want to be recorded. See [Privacy](/session-replay/privacy) to learn more about the privacy options. The default value is false.</p>
         </aside>
         <aside className="parameter">
           <h5>integrations <code>IntegrationOptions</code> <code>optional</code></h5>
-          <p>Specifies the configurations for the integrations that Highlight supports. See Integrations for more information.</p>
+          <p>Specifies the configurations for the integrations that Highlight supports.</p>
         </aside>
         <aside className="parameter">
           <h5>enableCanvasRecording <code>boolean</code> <code>optional</code></h5>
-          <p>Specifies whether Highlight will record the contents of &lt;canvas&gt; elements. See Canvas for more information. The default value is false.</p>
+          <p>Specifies whether Highlight will record the contents of &lt;canvas&gt; elements. See [Canvas](/product-features/canvas) for more information. The default value is false.</p>
         </aside>
         <aside className="parameter">
           <h5>enablePerformanceRecording <code>boolean</code> <code>optional</code></h5>
-          <p>Specifies whether Highlight will record performance metrics (e.g. FPS, device memory). See Performance Data for more information. The default value is true.</p>
+          <p>Specifies whether Highlight will record performance metrics (e.g. FPS, device memory). See [Performance Data](/product-features/performance-data) for more information. The default value is true.</p>
         </aside>
         <aside className="parameter">
           <h5>sessionShortcut <code>boolean | string</code> <code>optional</code></h5>
-          <p>Specifies the keyboard shortcut to open the current session in Highlight. We support the same syntax as hotkeys for configuring the keyboard shortcut. The default value is false.</p>
+          <p>Specifies the keyboard shortcut to open the current session in Highlight. We support the same syntax as [hotkeys](https://github.com/jaywcjlove/hotkeys) for configuring the keyboard shortcut. The default value is false. See [Session Shortcut](/session-replay/session-shortcut) for more information.</p>
         </aside>
         <aside className="parameter">
           <h5>feedbackWidget <code>FeedbackWidgetOptions</code> <code>optional</code></h5>
@@ -122,7 +106,7 @@ slug: client
 <section className="section">
   <div className="left">
     <h3>H.identify</h3> 
-    <p>This method is used to add an identity to a user for the session. You can learn more Identifying Users.</p>
+    <p>This method is used to add an identity to a user for the session. You can learn more in [Identifying Users](/session-replay/identifying-sessions).</p>
     <h6>Method Parameters</h6>
     <aside className="parameter">
       <h5>identifier<code>String</code> <code>required</code></h5>
@@ -147,7 +131,7 @@ slug: client
 <section className="section">
   <div className="left">
     <h3>H.track</h3> 
-    <p>This method is used to track events that happen during the session. You can learn more Tracking Events.</p>
+    <p>This method is used to track events that happen during the session. You can learn more in [Tracking Events](/session-replay/tracking-events).</p>
     <h6>Method Parameters</h6>
     <aside className="parameter">
       <h5>eventName<code>String</code> <code>required</code></h5>
@@ -171,7 +155,7 @@ slug: client
 <section className="section">
   <div className="left">
     <h3>H.consumeError</h3> 
-    <p>This method is used to send Highlight a custom error. You can learn more Custom Errors.</p>
+    <p>This method is used to send a custom error to Highlight.</p>
     <h6>Method Parameters</h6>
     <aside className="parameter">
       <h5>error<code>Error</code> <code>required</code></h5>
@@ -198,11 +182,11 @@ slug: client
 <section className="section">
   <div className="left">
     <h3>H.metrics</h3> 
-    <p>This method is used to submit custom metrics. You can learn more about Frontend Observability.</p>
+    <p>This method is used to submit custom metrics. You can learn more about [Frontend Observability](/product-features/frontend-observability).</p>
     <h6>Method Parameters</h6>
     <aside className="parameter">
       <h5>metrics<code>Metrics[]</code> <code>required</code></h5>
-      <p>A list of metrics that you'd like to report. Check out Metrics.</p>
+      <p>A list of metrics that you'd like to report.</p>
       <article className="innerParameterContainer">
         <aside className="innerParameterHeading">metrics properties</aside>
         <aside className="parameter">
@@ -238,7 +222,7 @@ slug: client
 <section className="section">
   <div className="left">
     <h3>H.getSessionDetails</h3> 
-    <p>This method is used to get the Highlight session URL. This method provides the same URL as H.getSessionUrl() but this also gives you a URL for the exact time (relative to the session recording) the method is called. For example, an error is thrown in your app and you want to save the Highlight session URL to another app (Mixpanel, Sentry, Amplitude, etc.). If you just want a URL to the session, you can save url. If you want a URL that sets the player to the time of when the error is called, you can save urlWithTimestamp.</p>
+    <p>This method is used to get the Highlight session URL. This method provides the same URL as H.getSessionUrl() but this also gives you a URL for the exact time (relative to the session recording) the method is called. For example, an error is thrown in your app and you want to save the Highlight session URL to another app (Mixpanel, Sentry, Amplitude, etc.). If you just want a URL to the session, you can save url. If you want a URL that sets the player to the time of when the error is called, you can save urlWithTimestamp. See [Sentry Integration](/integrations/sentry-integration) for one example use case.</p>
     <aside className="parameter">
       <h5>Returns <code>Promise&lt;{url: string, urlWithTimestamp: string}&gt;</code></h5>
       <article className="innerParameterContainer">
@@ -265,7 +249,7 @@ slug: client
 <section className="section">
   <div className="left">
     <h3>H.getSessionURL</h3> 
-    <p>This method is used to get the Highlight session URL for the current recording session. This is useful to use if you'd like to send the session URL to another application. See H.getSessionDetails() if you want to get the URL with the current time.</p>
+    <p>This method is used to get the Highlight session URL for the current recording session. This is useful to use if you'd like to send the session URL to another application. See H.getSessionDetails() if you want to get the URL with the current time. See [Sentry Integration](/integrations/sentry-integration) for one example use case.</p>
     <aside className="parameter">
       <h5>Returns<code>string<string></code></h5>
     </aside>
@@ -330,7 +314,7 @@ slug: client
 <section className="section">
   <div className="left">
     <h3>H.addSessionFeedback</h3> 
-    <p>This method is used to start Highlight if H.init() was called with manualStart set to true.</p>
+    <p>This method is used to add session feedback for the session. You can learn more in [User Feedback](/product-features/user-feedback). If you don't want to implement your own UI to collect feedback, you can use the UI that Highlight provides.</p>
     <h6>Method Parameters</h6>
     <aside className="parameter">
       <h5>feedbackOptions<code>SessionFeedbackOptions</code> <code>required</code></h5>
@@ -364,7 +348,7 @@ slug: client
 <section className="section">
   <div className="left">
     <h3>H.toggleSessionFeedbackModal</h3> 
-    <p>Calling this will toggle the visibility of the feedback modal.</p>
+    <p>Calling this will toggle the visibility of the feedback modal. You can learn more in [User Feedback](/product-features/user-feedback).</p>
   </div>
   <div className="right">
     <code>

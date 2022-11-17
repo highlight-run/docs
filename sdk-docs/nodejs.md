@@ -1,35 +1,18 @@
 ---
-title: Node.JS
+title: Node.JS SDK API Reference
 slug: nodejs
 ---
 
 <section className="section">
   <div className="left">
-    <h3>Node.js SDK Reference <code>test</code></h3>
+    <h3>Node.js SDK</h3>
     <p>
-      The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
-      <br />
-      The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
-      <br />
-      The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
+      Highlight's Node.js SDK makes it easy to monitor errors and metrics on your Node.js backend.
     </p>
-
   </div>
   <div className="right">
-
-    <h6>Using a fancier framework?</h6>
-
-    <p>The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, </p>
-
-    <h6>Something about typescript?</h6>
-
-    <p>The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request </p>
-
+    <h6>Just getting started?</h6>
+    <p>Check out our [getting started guide](/getting-started/backend-sdk/nodejs) to get up and running quickly.</p>
   </div>
 </section>
 
@@ -119,7 +102,7 @@ slug: nodejs
 <section className="section">
   <div className="left">
     <h3>H.recordMetric</h3> 
-    <p>H.recordMetric() reports a metric to Highlight. Backend metrics can be used just like frontend metrics for creating custom dashboards. See Frontend Observability for more details.</p>
+    <p>H.recordMetric() reports a metric to Highlight. Backend metrics can be used just like frontend metrics for creating custom dashboards. See [Frontend Observability](/product-features/frontend-observability) for more details.</p>
     <h6>Method Parameters</h6>
     <aside className="parameter">
       <h5>secureSessionId<code>string</code> <code>required</code></h5>

@@ -1,35 +1,18 @@
 ---
-title: Next.JS
+title: Next.JS SDK API Reference
 slug: nextjs
 ---
 
 <section className="section">
   <div className="left">
-    <h3>Next.js SDK Reference <code>test</code></h3>
+    <h3>Next.js SDK</h3>
     <p>
-      The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
-      <br />
-      The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
-      <br />
-      The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
+      Highlight's Next.js SDK makes it easier to configure your Next.js app for session recording. It ships with helper functions to upload frontend source maps, proxy your Highlight requests, and monitor errors and metrics on your backend.
     </p>
-
   </div>
   <div className="right">
-
-    <h6>Using a fancier framework?</h6>
-
-    <p>The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request bodies, </p>
-
-    <h6>Something about typescript?</h6>
-
-    <p>The Stripe API is organized around REST. Our API has predictable resource-oriented URLs, accepts form-encoded
-      request </p>
-
+    <h6>Just getting started?</h6>
+    <p>Check out our [getting started guide](/getting-started/nextjs-sdk/overview) to get up and running quickly.</p>
   </div>
 </section>
 
