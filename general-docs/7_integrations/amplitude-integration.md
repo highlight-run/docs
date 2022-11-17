@@ -21,7 +21,7 @@ H.init('<YOUR_ORGANIZATION_ID>', {
 
 ### `logEvent()`
 
-Calling [`H.track()`](/api/client/h-track) will forward the data to Amplitude's [`logEvent()`](https://amplitude.github.io/Amplitude-JavaScript/#amplitudeclientlogevent).
+Calling [`H.track()`](/sdk/client#Htrack) will forward the data to Amplitude's [`logEvent()`](https://amplitude.github.io/Amplitude-JavaScript/#amplitudeclientlogevent).
 
 ```typescript
 H.track('signup_button_clicked', {
@@ -40,7 +40,7 @@ amplitudeClient.logEvent('signup_button_clicked', {
 
 ### `setUserId()` and `identify()`
 
-Calling [`H.identify()`](/api/client/h-identify) will forward the data to Amplitude's [`setUserId()`](https://amplitude.github.io/Amplitude-JavaScript/#amplitudeclientlogevent) and [`identify()`](https://amplitude.github.io/Amplitude-JavaScript/Identify/).
+Calling [`H.identify()`](/sdk/client#Hidentify) will forward the data to Amplitude's [`setUserId()`](https://amplitude.github.io/Amplitude-JavaScript/#amplitudeclientlogevent) and [`identify()`](https://amplitude.github.io/Amplitude-JavaScript/Identify/).
 
 ```typescript
 H.identify('eliza@corp.com', {

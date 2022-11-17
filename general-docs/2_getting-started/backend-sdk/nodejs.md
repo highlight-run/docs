@@ -11,7 +11,7 @@ Highlight ships `@highlight-run/node` which can be installed alongside highli
 
 This backend SDK requires one of our [Client SDK](/api/client)s to be installed, so please follow the instructions there if you have not done so.
 
-For server-side linking to Highlight sessions, your client-side call to `H.init` should include the `tracingOrigins` setting. See [H.init()](/api/nodejs/h-init) for more details.
+For server-side linking to Highlight sessions, your client-side call to `H.init` should include the `tracingOrigins` setting. See [H.init()](/sdk/nodejs#Hinit) for more details.
 
 ```typescript
 H.init('<YOUR_PROJECT_ID>', {
@@ -35,7 +35,7 @@ yarn add @highlight-run/node
 
 ### Initialize the Highlight backend
 
-Somewhere in your app, typically during startup or when handling errors, initialize the Highlight backend with any necessary options. See [H.init()](/api/nodejs/h-init) for a full list of options.
+Somewhere in your app, typically during startup or when handling errors, initialize the Highlight backend with any necessary options. See [H.init()](/sdk/nodejs#Hinit) for a full list of options.
 
 ```typescript
 import { H } from '@highlight-run/node'
@@ -48,7 +48,7 @@ if (!H.isInitialized()) {
 
 ### Handle errors
 
-When your app throws a backend error, you can log that error to Highlight by calling [H.consumeError()](/api/nodejs/h-consume-error) using the `secureSessionId` and `requestId` parameters from the request's header. Your error handling code will depend on the backend framework you use, but will likely look something like this:
+When your app throws a backend error, you can log that error to Highlight by calling [H.consumeError()](/sdk/nodejs#Hconsume-error) using the `secureSessionId` and `requestId` parameters from the request's header. Your error handling code will depend on the backend framework you use, but will likely look something like this:
 
 ```typescript
 import { H } from '@highlight-run/node'

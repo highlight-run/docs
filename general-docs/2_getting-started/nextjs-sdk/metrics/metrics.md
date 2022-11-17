@@ -9,7 +9,7 @@ updatedAt: 2022-10-24T22:59:19.000Z
 
 ### Manual Instrumentation
 
-If you want to add record additional metrics from your api handlers, add some manual instrumentation using the `@highlight-run/next` package. Make sure your [Next.js](/getting-started/nextjs-sdk) frontend integration configures the `tracingOrigins` in the `H.init` call, per [H.init()](/api/client/h-init) .
+If you want to add record additional metrics from your api handlers, add some manual instrumentation using the `@highlight-run/next` package. Make sure your [Next.js](/getting-started/nextjs-sdk) frontend integration configures the `tracingOrigins` in the `H.init` call, per [H.init()](/sdk/client#Hinit) .
 
 ```typescript
 import { withHighlight } from '../highlight.config'

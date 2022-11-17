@@ -31,4 +31,4 @@ const ShoppingCard = ({ items }) => (
 
 ## API
 
-See the [Recording Network Requests and Responses](/api/client/h-track) API documentation for more information on how to use it.
+See the [Recording Network Requests and Responses](/sdk/client#Htrack) API documentation for more information on how to use it.
