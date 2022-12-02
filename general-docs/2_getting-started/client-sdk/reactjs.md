@@ -5,10 +5,9 @@ createdAt: 2021-09-13T22:48:34.000Z
 updatedAt: 2022-05-26T17:21:00.000Z
 ---
 
-## 👋 Welcome!
-
-Let's get you up and running with Highlight. **We should be done in less than 2 minutes.**
-
+```hint
+Reference our [client-side sdk docs](/docs/sdk/client) for advanced functionality and our [fullstack mapping guide](/docs/getting-started/frontend-backend-mapping) on pairing backend errors with your replay.
+```
 ## Installing the SDK
 
 Install `highlight.run` and `@highlight-run/react` using your package manager.
@@ -55,7 +54,3 @@ ReactDOM.render(
 ## Verify
 
 Start your app, go to it in the browser, then click around. Highlight will be recording your session and it will show up on <https://app.highlight.run/sessions> a few seconds after recording has started.
-
-## Configuration
-
-Learn more about the other developer experience goodies Highlight provides by seeing [React.js](/getting-started/client-sdk/reactjs).
