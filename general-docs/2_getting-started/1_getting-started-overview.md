@@ -33,7 +33,7 @@ Highlight currently supports any framework that uses the [dom](https://www.w3sch
 
 ## For your backend / server:
 
-Highlight also supports reporting errors from your backend and mapping these to corresponding sessions. This gives you and your team a full picture of your application. 
+Highlight also supports reporting errors from your backend and mapping these to corresponding sessions. This gives you and your team a full picture of your application.
 
 Learn more in [Backend SDK.](/getting-started/backend-sdk)
 
