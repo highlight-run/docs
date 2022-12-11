@@ -63,6 +63,9 @@ Learn more about the other developer experience goodies Highlight provides by se
 ## Next Steps
 
 After installing Highlight for your frontend application, there are a few other things you should check out about our Session Replay product, namely:
+
 -- [Privacy Controls](/docs/session-replay/privacy)
+
 -- [Network Request Recording](/docs/session-replay/recording-network-requests-and-responses)
+
 -- [Backend Setup Guides](/docs/getting-started/backend-sdk/overview)
