@@ -5,9 +5,13 @@ createdAt: 2021-09-13T22:48:48.000Z
 updatedAt: 2022-05-26T17:21:23.000Z
 ---
 
-Let's get you up and running with Highlight. **We should be done in less than 2 minutes.**
+```hint
+For a more comprehensive tour of our client sdk for Vue.js, visit our [client reference page](/docs/sdk/client).
+```
+
 
 ## Installing the SDK
+
 
 Install `highlight.run` using your package manager.
 
@@ -43,13 +47,13 @@ H.init('9me23yd2') // Get your project ID from https://app.highlight.run/setup
 createApp(App).mount('#app')
 ```
 
-## Verify
+## Verify Installation
 
 Start your app, go to it in the browser, then click around. Highlight will be recording your session and it will show up on <https://app.highlight.run/sessions> a few seconds after recording has started.
 
 ## Next Steps
 
-After installing Highlight for your frontend application, there are a few other things you should check out, namely:
+After installing Highlight for your frontend application, there are a few other things you should check out about our Session Replay product, namely:
 -- [Privacy Controls](/docs/session-replay/privacy)
 -- [Network Request Recording](/docs/session-replay/recording-network-requests-and-responses)
 -- [Backend Setup Guides](/docs/getting-started/backend-sdk/overview)

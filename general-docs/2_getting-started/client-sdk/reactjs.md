@@ -5,7 +5,9 @@ createdAt: 2021-09-13T22:48:34.000Z
 updatedAt: 2022-05-26T17:21:00.000Z
 ---
 
-Let's get you up and running with Highlight. **We should be done in less than 2 minutes.**
+```hint
+For a more comprehensive tour of our client sdk for React.js, visit our [client reference page](docs/sdk/client).
+```
 
 ## Installing the SDK
 
@@ -57,3 +59,10 @@ Start your app, go to it in the browser, then click around. Highlight will be re
 ## Configuration
 
 Learn more about the other developer experience goodies Highlight provides by seeing [React.js](/getting-started/client-sdk/reactjs).
+
+## Next Steps
+
+After installing Highlight for your frontend application, there are a few other things you should check out about our Session Replay product, namely:
+-- [Privacy Controls](/docs/session-replay/privacy)
+-- [Network Request Recording](/docs/session-replay/recording-network-requests-and-responses)
+-- [Backend Setup Guides](/docs/getting-started/backend-sdk/overview)
