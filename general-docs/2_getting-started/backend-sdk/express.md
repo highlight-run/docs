@@ -17,7 +17,6 @@ First, import the package
 
 ```shell
 yarn add @highlight-run/node
-
 ```
 
 ### Adding Highlight to Express

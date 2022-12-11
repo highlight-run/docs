@@ -5,8 +5,6 @@ createdAt: 2021-09-13T22:48:34.000Z
 updatedAt: 2022-05-26T17:21:00.000Z
 ---
 
-## 👋 Welcome!
-
 Let's get you up and running with Highlight. **We should be done in less than 2 minutes.**
 
 ## Installing the SDK

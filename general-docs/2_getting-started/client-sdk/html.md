@@ -5,8 +5,6 @@ createdAt: 2021-09-13T23:00:58.000Z
 updatedAt: 2022-06-13T22:00:02.000Z
 ---
 
-## 👋 Welcome!
-
 Let's get you up and running with Highlight. **We should be done in less than 2 minutes.**
 
 ## Adding the Snippet
