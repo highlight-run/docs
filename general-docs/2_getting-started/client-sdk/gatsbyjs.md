@@ -5,10 +5,9 @@ createdAt: 2021-09-13T23:00:44.000Z
 updatedAt: 2022-04-01T19:51:11.000Z
 ---
 
-## 👋 Welcome!
-
-Let's get you up and running with Highlight. **We should be done in less than 2 minutes.**
-
+```hint
+Reference our [client-side sdk docs](/docs/sdk/client) for advanced functionality and our [fullstack mapping guide](/docs/getting-started/frontend-backend-mapping) on pairing backend errors with your replay.
+```
 ## Installing the SDK
 
 Install `@highlight-run/gatsby-plugin-highlight` using your package manager.

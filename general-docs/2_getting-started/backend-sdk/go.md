@@ -7,8 +7,8 @@ updatedAt: 2022-04-06T20:22:54.000Z
 
 Highlight supports several server frameworks written in Go.
 
--   go-chi/chi
--   gin-gonic/gin
+`go-chi/chi`
+`gin-gonic/gin`
 
 # Usage
 
@@ -34,7 +34,7 @@ func main() {
 
 ```
 
--   This configures highlight to transmit any relevant events or errors as they may happen. You can also customize highlight by using the public highlight methods before calling `Start()`. However, we still need to associate your users' sessions with potential backend errors. We provide middleware packages that help set this up:
+This configures highlight to transmit any relevant events or errors as they may happen. You can also customize highlight by using the public highlight methods before calling `Start()`. However, we still need to associate your users' sessions with potential backend errors. We provide middleware packages that help set this up:
 
 ### Middleware
 

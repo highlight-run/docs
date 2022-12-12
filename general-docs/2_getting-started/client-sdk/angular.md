@@ -5,10 +5,9 @@ createdAt: 2022-05-26T18:54:36.000Z
 updatedAt: 2022-05-26T18:55:03.000Z
 ---
 
-## 👋 Welcome!
-
-Let's get you up and running with Highlight. **We should be done in less than 2 minutes.**
-
+```hint
+Reference our [client-side sdk docs](/docs/sdk/client) for advanced functionality and our [fullstack mapping guide](/docs/getting-started/frontend-backend-mapping) on pairing backend errors with your replay.
+```
 ## Installing the SDK
 
 Install `highlight.run` using your package manager.
