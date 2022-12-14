@@ -15,7 +15,7 @@ The usage of this Backend SDK requires one of our [Client SDK](/getting-started/
 
 First, import the package
 
-```shell
+```typescript
 yarn add @highlight-run/node
 ```
 

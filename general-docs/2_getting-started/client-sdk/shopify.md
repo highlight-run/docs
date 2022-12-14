@@ -6,7 +6,7 @@ updatedAt: 2022-08-18T22:41:06.000Z
 ---
 
 ```hint
-For a more comprehensive tour of our client sdk for custom Shopify usage, visit our [client reference page](docs/sdk/client).
+Reference our [client-side sdk docs](/docs/sdk/client) for advanced functionality and our [fullstack mapping guide](/docs/getting-started/frontend-backend-mapping) on pairing backend errors with your replay.
 ```
 ## Adding the Snippet
 

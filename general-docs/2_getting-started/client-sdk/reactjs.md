@@ -6,9 +6,8 @@ updatedAt: 2022-05-26T17:21:00.000Z
 ---
 
 ```hint
-For a more comprehensive tour of our client sdk for React.js, visit our [client reference page](docs/sdk/client).
+Reference our [client-side sdk docs](/docs/sdk/client) for advanced functionality and our [fullstack mapping guide](/docs/getting-started/frontend-backend-mapping) on pairing backend errors with your replay.
 ```
-
 ## Installing the SDK
 
 Install `highlight.run` and `@highlight-run/react` using your package manager.

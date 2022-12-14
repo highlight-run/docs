@@ -6,9 +6,8 @@ updatedAt: 2022-05-26T18:55:03.000Z
 ---
 
 ```hint
-For a more comprehensive tour of our client sdk, visit our [client reference page](docs/sdk/client).
+Reference our [client-side sdk docs](/docs/sdk/client) for advanced functionality and our [fullstack mapping guide](/docs/getting-started/frontend-backend-mapping) on pairing backend errors with your replay.
 ```
-
 ## Installing the SDK
 
 Install `highlight.run` using your package manager.
