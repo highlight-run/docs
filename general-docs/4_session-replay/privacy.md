@@ -19,7 +19,20 @@ The Highlight snippet will in-turn measure the dimensions of the ignored element
 
 ![Elements with the highlight-block class will show up as redacted in your recordings](https://archbee-image-uploads.s3.amazonaws.com/XPwQFz8tul7ogqGkmtA0y/s3OAcyrUrqMsWXwDqT9Zj_aff29bb-kapture2021-03-25at140125.gif)
 
+## Obfuscating Elements
+
+Alternatively, you can obfuscate specific HTML elements by adding the `highlight-mask` CSS class. The effect is the same of setting `enableStrictPrivacy` (the randomized text in the photo above) but applies to the specific HTML element that you mask.
+
+```html
+<div class="highlight-mask">
+	This is some sensitive data <button>Important Button</button>
+</div>
+```
+
 ## Ignoring Input
+```hint
+The following CSS class only works for `<input>` elements. If you are interested in blocking the capture of other HTML elements, see the `highlight-block` class 
+```
 
 For sensitive input fields that your team would like to ignore user input for, you can add a CSS class `highlight-ignore` that will preserve the styling of the input element, but ignore all user input.
 
@@ -52,14 +65,4 @@ Here are some examples:
 		>null</a
 	></iframe
 >
-```
-
-# Obfuscating a Specific Element
-
-You can now obfuscate specific HTML elements by adding the `highlight-mask` CSS class. The effect is the same of setting `enableStrictPrivacy` but applies to the specific HTML element that you mask.
-
-```html
-<div class="highlight-mask">
-	This is some sensitive data <button>Important Button</button>
-</div>
 ```
