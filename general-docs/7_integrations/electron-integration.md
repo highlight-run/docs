@@ -1,13 +1,13 @@
 ---
-title: Electron Integration
+title: Electron Support
 slug: L9o_-electron-integration
 createdAt: 2022-09-29T04:16:22.000Z
 updatedAt: 2022-10-13T18:04:13.000Z
 ---
 
-If you are running Highlight in Electron, you can benefit from the additional functionality that tracks main process window events to stop and start Highlight recording when your app is minimized.
+If you are running Highlight in Electron, a Desktop based JS framework, you can benefit from the additional functionality that tracks main process window events to stop and start Highlight recording when your app is minimized.
 
-Please ensure you are using Highlight SDK version [highlight.run@4.3.4.](https://www.npmjs.com/package/highlight.run/v/4.3.4) Call `configureElectronHighlight` with a `BrowserWindow` object to instrument Electron events.
+Please ensure you are using Highlight SDK version [highlight.run@4.3.4.](https://www.npmjs.com/package/highlight.run/v/4.3.4) or higher. Call `configureElectronHighlight` with a `BrowserWindow` object to instrument Electron events.
 
 ```Text
 const mainWindow = new BrowserWindow(...)
