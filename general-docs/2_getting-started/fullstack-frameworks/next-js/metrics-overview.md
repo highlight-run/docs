@@ -1,5 +1,5 @@
 ---
-title: Data Instrumentation
+title: Reporting Metrics
 slug: BN8E-metrics
 createdAt: 2022-10-13T18:20:48.000Z
 updatedAt: 2022-10-18T23:30:10.000Z
@@ -9,7 +9,7 @@ updatedAt: 2022-10-18T23:30:10.000Z
 
 ### Manual Instrumentation
 
-If you want to add record additional metrics from your api handlers, add some manual instrumentation using the `@highlight-run/next` package. Make sure your [Next.js](/getting-started/client-sdk/nextjs) frontend integration configures the `tracingOrigins` in the `H.init` call, per [H.init()](/sdk/client#Hinit) .
+If you want to record additional metrics from your api handlers, add some manual instrumentation using the `@highlight-run/next` package. Make sure your [Next.js](/getting-started/client-sdk/nextjs) frontend integration configures the `tracingOrigins` in the `H.init` call, per [H.init()](/sdk/client#Hinit) .
 
 ```typescript
 import { withHighlight } from '../highlight.config'
