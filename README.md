@@ -1,6 +1,6 @@
 <img width="2051" alt="Docs Thumbnail v1" src="https://user-images.githubusercontent.com/20292680/207546300-9abcc399-3deb-4f39-bda9-024799bcab7b.png">
 
-## Official Documentation Repo for Highlight (https://highlightio)
+## Official Documentation Repo for Highlight (https://highlight.io)
 Welcome to the repo housing the Documentation for [highlight.io](https://highlight.io). This repo contains all of the copy that lives on our main docs site (https://highlight.io/docs)
 
 ## What's Highlight? / Getting Started
