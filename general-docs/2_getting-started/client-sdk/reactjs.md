@@ -55,10 +55,6 @@ ReactDOM.render(
 
 Start your app, go to it in the browser, then click around. Highlight will be recording your session and it will show up on <https://app.highlight.run/sessions> a few seconds after recording has started.
 
-## Configuration
-
-Learn more about the other developer experience goodies Highlight provides by seeing [React.js](/getting-started/client-sdk/reactjs).
-
 ## Next Steps
 
 After installing Highlight for your frontend application, there are a few other things you should check out about our Session Replay product, namely:
