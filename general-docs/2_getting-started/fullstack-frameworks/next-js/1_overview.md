@@ -7,11 +7,11 @@ updatedAt: 2022-10-18T22:40:13.000Z
 
 The Highlight Next.js SDK adds additional features to Highlight, including:
 
--   server-side error monitoring and linking to Highlight sessions: [Highlight()](/docs/sdk/nextjs#Highlight)
+-   server-side error monitoring and linking to Highlight sessions: [Highlight()](/sdk/nextjs#Highlight)
 
--   automatic configuration of source map uploads: [withHighlightConfig()](/docs/sdk/nextjs#withHighlightConfig)
+-   automatic configuration of source map uploads: [withHighlightConfig()](/sdk/nextjs#withHighlightConfig)
 
--   automatic proxying for Highlight requests using Next.js rewrites: [withHighlightConfig()](/docs/sdk/nextjs#withHighlightConfig)
+-   automatic proxying for Highlight requests using Next.js rewrites: [withHighlightConfig()](/sdk/nextjs#withHighlightConfig)
 
 ## Getting Started
 
@@ -44,10 +44,10 @@ yarn add @highlight-run/next
 ### Wrapping your next.config.js
 
 ```hint
-In order for Highlight to be aware of your project during build time, you need the `HIGHLIGHT_SOURCEMAP_UPLOAD_API_KEY` variable in your build environment. Refer to our [environment variables doc](/docs/getting-started/fullstack-frameworks/next-js/env-variables) to get this set up in your cloud provider of choice.
+In order for Highlight to be aware of your project during build time, you need the `HIGHLIGHT_SOURCEMAP_UPLOAD_API_KEY` variable in your build environment. Refer to our [environment variables doc](/getting-started/fullstack-frameworks/next-js/env-variables) to get this set up in your cloud provider of choice.
 ```
 
-If you want to configure source map uploads during your production builds and enable the Next.js Highlight proxy rewrite, you can wrap your Next.js config with `withHighlightConfig`. See [withHighlightConfig()](/docs/sdk/nextjs#withHighlightConfig) for more details.
+If you want to configure source map uploads during your production builds and enable the Next.js Highlight proxy rewrite, you can wrap your Next.js config with `withHighlightConfig`. See [withHighlightConfig()](/sdk/nextjs#withHighlightConfig) for more details.
 
 ```javascript
 import { withHighlightConfig } from '@highlight-run/next'
@@ -58,7 +58,7 @@ export default withHighlightConfig({
 
 ### Wrapping your API routes
 
-If you want to monitor backend errors, this API wrapper will send your errors to Highlight and link them to the session where the network request was made. Define a `withHighlight` wrapper with any common options in a common function file. For example, you can create a `highlight.config.ts` file in the root of your next.js codebase. See [Highlight()](/docs/sdk/nextjs#Highlight) for more details.
+If you want to monitor backend errors, this API wrapper will send your errors to Highlight and link them to the session where the network request was made. Define a `withHighlight` wrapper with any common options in a common function file. For example, you can create a `highlight.config.ts` file in the root of your next.js codebase. See [Highlight()](/sdk/nextjs#Highlight) for more details.
 
 ```typescript
 import { Highlight } from '@highlight-run/next'
@@ -80,4 +80,4 @@ export default withHighlight(handler)
 
 ### Wrapping your API routes
 
-Refer to the [next.js metrics docs](/docs/general-docs/getting-started/fullstack-frameworks/next-js/metrics) in order to report custom metrics from your Next.js application.
+Refer to the [next.js metrics docs](/getting-started/fullstack-frameworks/next-js/metrics) in order to report custom metrics from your Next.js application.
