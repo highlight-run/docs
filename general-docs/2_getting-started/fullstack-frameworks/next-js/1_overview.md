@@ -80,4 +80,4 @@ export default withHighlight(handler)
 
 ### Wrapping your API routes
 
-Refer to the [next.js metrics docs](/getting-started/fullstack-frameworks/next-js/metrics) in order to report custom metrics from your Next.js application.
+Refer to the [next.js metrics docs](/getting-started/fullstack-frameworks/next-js/metrics-overview) in order to report custom metrics from your Next.js application.
