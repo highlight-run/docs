@@ -7,11 +7,11 @@ updatedAt: 2022-10-18T22:40:13.000Z
 
 The Highlight Next.js SDK adds additional features to Highlight, including:
 
---   server-side error monitoring and linking to Highlight sessions: [Highlight()](/docs/sdk/nextjs#Highlight)
+-   server-side error monitoring and linking to Highlight sessions: [Highlight()](/docs/sdk/nextjs#Highlight)
 
---   automatic configuration of source map uploads: [withHighlightConfig()](/docs/sdk/nextjs#withHighlightConfig)
+-   automatic configuration of source map uploads: [withHighlightConfig()](/docs/sdk/nextjs#withHighlightConfig)
 
---   automatic proxying for Highlight requests using Next.js rewrites: [withHighlightConfig()](/docs/sdk/nextjs#withHighlightConfig)
+-   automatic proxying for Highlight requests using Next.js rewrites: [withHighlightConfig()](/docs/sdk/nextjs#withHighlightConfig)
 
 ## Getting Started
 
