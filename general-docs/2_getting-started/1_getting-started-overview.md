@@ -12,21 +12,21 @@ A session in Highlight starts in the client.
 
 Highlight supports any framework that uses the [dom](https://www.w3schools.com/js/js_htmldom.asp) under the hood, and we support all modern browsers to date. Beyond that, to make integration even easier, we have official support for the following frameworks:
 
---   [React.js](/getting-started/client-sdk/reactjs)
+-   [React.js](/getting-started/client-sdk/reactjs)
 
---   [Next.js](/getting-started/client-sdk/nextjs)
+-   [Next.js](/getting-started/client-sdk/nextjs)
 
---   [Vue.js](/getting-started/client-sdk/vuejs)
+-   [Vue.js](/getting-started/client-sdk/vuejs)
 
---   [Gatsby.js](/getting-started/client-sdk/gatsbyjs)
+-   [Gatsby.js](/getting-started/client-sdk/gatsbyjs)
 
---   [HTML](/getting-started/client-sdk/html)
+-   [HTML](/getting-started/client-sdk/html)
 
---   [SvelteKit](/getting-started/client-sdk/sveltekit)
+-   [SvelteKit](/getting-started/client-sdk/sveltekit)
 
---   [Angular](/getting-started/client-sdk/angular)
+-   [Angular](/getting-started/client-sdk/angular)
 
---   If you don't see your framework above, see our docs for [other frameworks](/getting-started/client-sdk/other).
+-   If you don't see your framework above, see our docs for [other frameworks](/getting-started/client-sdk/other).
 
 For in-depth instructions, follow the [Client SDK](/getting-started/client-sdk) guide.
 
@@ -38,12 +38,12 @@ Learn more in [Backend SDK.](/getting-started/backend-sdk)
 
 For your server, Highlight supports a few frameworks out of the box, and given that our setup is quite extn
 
---   [Express](/getting-started/backend-sdk/express)
+-   [Express](/getting-started/backend-sdk/express)
 
---   [Go](/getting-started/backend-sdk/express)
+-   [Go](/getting-started/backend-sdk/express)
 
---   [Next.js](/getting-started/backend-sdk/express)
+-   [Next.js](/getting-started/backend-sdk/express)
 
---   [Node.js](/getting-started/client-sdk/nextjs)
+-   [Node.js](/getting-started/client-sdk/nextjs)
 
---   For requesting other backend frameworks, shoot us a message at [support@highlight.io](mailto:support@highlight.io) or share in our [community](https://discord.gg/yxaXEAqgwN)
+-   For requesting other backend frameworks, shoot us a message at [support@highlight.io](mailto:support@highlight.io) or share in our [community](https://discord.gg/yxaXEAqgwN)
