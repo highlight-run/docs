@@ -54,3 +54,13 @@ export default MyApp
 ## Verify
 
 Start your app, go to it in the browser, then click around. Highlight will be recording your session and it will show up on <https://app.highlight.run/sessions> a few seconds after recording has started.
+
+## Next Steps
+
+After installing Highlight for your frontend application, there are a few other things you should check out about our Session Replay product, namely:
+
+- [Privacy Controls](/docs/session-replay/privacy)
+
+- [Network Request Recording](/docs/session-replay/recording-network-requests-and-responses)
+
+- [Backend Setup Guides](/docs/getting-started/backend-sdk/overview)

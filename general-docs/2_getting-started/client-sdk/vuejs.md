@@ -10,6 +10,7 @@ Reference our [client-side sdk docs](/docs/sdk/client) for advanced functionalit
 ```
 ## Installing the SDK
 
+
 Install `highlight.run` using your package manager.
 
 ```shell
@@ -44,6 +45,16 @@ H.init('9me23yd2') // Get your project ID from https://app.highlight.run/setup
 createApp(App).mount('#app')
 ```
 
-## Verify
+## Verify Installation
 
 Start your app, go to it in the browser, then click around. Highlight will be recording your session and it will show up on <https://app.highlight.run/sessions> a few seconds after recording has started.
+
+## Next Steps
+
+After installing Highlight for your frontend application, there are a few other things you should check out about our Session Replay product, namely:
+
+- [Privacy Controls](/docs/session-replay/privacy)
+
+- [Network Request Recording](/docs/session-replay/recording-network-requests-and-responses)
+
+- [Backend Setup Guides](/docs/getting-started/backend-sdk/overview)
