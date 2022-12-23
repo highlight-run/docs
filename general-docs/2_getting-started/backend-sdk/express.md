@@ -24,7 +24,8 @@ yarn add @highlight-run/node
 Pass configurations into the errorHandler and Highlight is ready to go!
 
 ```typescript
-import { Highlight } from '@highlight-run/node'
+import * as Highlight from '@highlight-run/node'
+
 // or like this with commonjs
 const Highlight = require('@highlight-run/node')
 
