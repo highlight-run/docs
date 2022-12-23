@@ -18,8 +18,8 @@ slug: nodejs
 
 <section className="section">
   <div className="left">
-    <h3>H.init</h3> 
-    <p>H.init() initializes the Highlight backend SDK. It is required to call this method before recording backend errors or metrics.</p>
+    <h3>H.init</h3>
+    <p>H.init() initializes the Highlight backend SDK. If you are not using any of the provided handlers for [Express](/getting-started/backend-sdk/express), [tRPC](/getting-started/backend-sdk/trpc), or [Firebase](/getting-started/backend-sdk/firebase), it is required to call this method before recording backend errors or metrics.</p>
     <h6>Method Parameters</h6>
     <aside className="parameter">
       <h5>options<code>NodeOptions</code> <code>required</code></h5>
