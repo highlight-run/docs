@@ -53,7 +53,7 @@ ReactDOM.render(
 
 # A react-specific package
 
-In addition to `highlight.run`, Highlight ships [`@highlight-run/react`](https://github.com/highlight-run/react) which can be installed alongside `highlight.run` for additional functionality for React applications, namely the `<ErrorBoundary/>`. Read more about it [here]().
+In addition to `highlight.run`, Highlight ships [`@highlight-run/react`](https://github.com/highlight-run/react) which can be installed alongside `highlight.run` for additional functionality for React applications, namely the `<ErrorBoundary/>`. Read more about it [here](getting-started/client-sdk/reactjs/error-boundary).
 
 
 ## Verify

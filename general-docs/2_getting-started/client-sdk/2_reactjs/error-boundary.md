@@ -23,7 +23,7 @@ yarn add highlight.run @highlight-run/react
 ```
 
 ```hint
-Have you integrated the `highlight.run` package into your React app yet using `H.init()`? If not, follow the instructions [here](/getting-started/client-sdk/reactjs) first.
+Have you integrated the `highlight.run` package into your React app yet using `H.init()`? If not, follow the instructions [here](overview) first.
 ```
 
 # React Error Boundary
