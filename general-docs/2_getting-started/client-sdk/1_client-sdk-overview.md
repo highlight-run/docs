@@ -9,7 +9,7 @@ updatedAt: 2022-05-26T18:53:53.000Z
 
 Get started with one of these guides if you're using a listed framework:
 
--   [React.js](/getting-started/client-sdk/reactjs)
+-   [React.js](/getting-started/client-sdk/reactjs/overview)
 
 -   [Next.js](/getting-started/client-sdk/nextjs)
 
