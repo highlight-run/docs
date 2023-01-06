@@ -91,6 +91,10 @@ slug: client
           <h5>tracingOrigins <code>boolean | (string | RegExp)[]</code> <code>optional</code></h5>
           <p>Specifies where the backend of the app lives. If specified, Highlight will attach the X-Highlight-Request header to outgoing requests whose destination URLs match a substring or regexp from this list, so that backend errors can be linked back to the session. If true is specified, all requests to the current domain will be matched. Example tracingOrigins: ['localhost', /^\//, 'backend.myapp.com']</p>
         </aside>
+        <aside className="parameter">
+          <h5>isCrossOriginIframe <code>boolean</code> <code>optional</code></h5>
+          <p>Specifies that the current app is a cross origin iframe in an app where Highlight is also enabled. This flag should only be set in the iframe, not in the parent application hosting the iframe. This allows the iframe to forward its recording to the parent to be included as part of the session. See [cross-origin iframe recording](/product-features/cross-origin-iframes) for more details.</p>
+        </aside>
       </article>
     </aside>
   </div>
