@@ -1,6 +1,6 @@
 ---
 title: Squarespace
-slug: wSUK-squarespace
+slug: squarespace
 createdAt: 2021-09-13T23:00:58.000Z
 updatedAt: 2022-04-01T19:51:22.000Z
 ---

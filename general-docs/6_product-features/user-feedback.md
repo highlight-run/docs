@@ -1,6 +1,6 @@
 ---
 title: User Feedback
-slug: r8pl-user-feedback
+slug: user-feedback
 createdAt: 2021-09-14T00:14:06.000Z
 updatedAt: 2021-12-10T23:18:41.000Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: Live Mode
-slug: 2McJ-live-mode
+slug: live-mode
 createdAt: 2022-03-21T18:28:39.000Z
 updatedAt: 2022-03-21T23:31:09.000Z
 ---

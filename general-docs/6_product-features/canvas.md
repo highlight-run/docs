@@ -1,6 +1,6 @@
 ---
 title: Canvas
-slug: -46L-canvas
+slug: 46L-canvas
 createdAt: 2021-10-13T22:55:19.000Z
 updatedAt: 2022-09-29T18:01:58.000Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: Shopify
-slug: n_JJ-shopify
+slug: shopify
 createdAt: 2021-09-13T23:00:58.000Z
 updatedAt: 2022-08-18T22:41:06.000Z
 ---

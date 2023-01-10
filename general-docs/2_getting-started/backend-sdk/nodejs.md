@@ -1,6 +1,6 @@
 ---
 title: Node.js Backend
-slug: AYlL-nodejs-backend
+slug: nodejs-backend
 createdAt: 2022-10-24T20:36:04.000Z
 updatedAt: 2022-10-25T19:42:49.000Z
 ---

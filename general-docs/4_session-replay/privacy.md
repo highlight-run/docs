@@ -1,6 +1,6 @@
 ---
 title: Privacy
-slug: Nwmp-privacy
+slug: privacy
 createdAt: 2021-09-14T17:47:33.000Z
 updatedAt: 2022-08-03T23:29:08.000Z
 ---

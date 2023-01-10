@@ -1,6 +1,6 @@
 ---
 title: HTML
-slug: XgeS-html
+slug: html
 createdAt: 2021-09-13T23:00:58.000Z
 updatedAt: 2022-06-13T22:00:02.000Z
 ---

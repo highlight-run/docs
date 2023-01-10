@@ -1,6 +1,6 @@
 ---
 title: Electron Support
-slug: L9o_-electron-integration
+slug: electron-integration
 createdAt: 2022-09-29T04:16:22.000Z
 updatedAt: 2022-10-13T18:04:13.000Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: React.js
-slug: reactjs
+slug: 
 createdAt: 2021-09-13T22:48:34.000Z
 updatedAt: 2022-05-26T17:21:00.000Z
 ---

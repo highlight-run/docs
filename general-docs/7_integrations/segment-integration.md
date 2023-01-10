@@ -1,6 +1,6 @@
 ---
 title: Segment Integration
-slug: YMjR-segment-integration
+slug: segment-integration
 createdAt: 2021-10-18T22:03:24.000Z
 updatedAt: 2022-06-13T15:44:38.000Z
 ---

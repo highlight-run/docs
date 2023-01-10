@@ -1,6 +1,6 @@
 ---
 title: Versioning Sessions
-slug: 7IcW-versioning-sessions
+slug: versioning-sessions
 createdAt: 2021-09-14T00:14:40.000Z
 updatedAt: 2022-03-21T18:25:40.000Z
 ---

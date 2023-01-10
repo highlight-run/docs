@@ -1,6 +1,6 @@
 ---
 title: Segments
-slug: 1Dms-segments
+slug: segments
 createdAt: 2021-09-14T01:48:14.000Z
 updatedAt: 2021-09-14T18:55:12.000Z
 ---

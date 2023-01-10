@@ -1,6 +1,6 @@
 ---
 title: Session Sharing
-slug: KxMf-session-sharing
+slug: session-sharing
 createdAt: 2021-09-14T01:47:59.000Z
 updatedAt: 2022-01-07T23:15:15.000Z
 ---

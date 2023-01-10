@@ -1,6 +1,6 @@
 ---
 title: Next.js
-slug: d3G0-nextjs
+slug: nextjs
 createdAt: 2021-09-13T23:00:33.000Z
 updatedAt: 2022-10-18T23:54:07.000Z
 ---

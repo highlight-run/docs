@@ -1,6 +1,6 @@
 ---
 title: Linear Integration
-slug: jLzG-linear-integration
+slug: linear-integration
 createdAt: 2022-06-06T01:42:47.000Z
 updatedAt: 2022-06-06T16:45:25.000Z
 ---

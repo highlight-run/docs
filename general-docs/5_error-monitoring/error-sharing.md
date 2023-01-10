@@ -1,6 +1,6 @@
 ---
 title: Error Sharing
-slug: error-sharing
+slug: sharing
 createdAt: 2022-12-19T00:00:00.000Z
 updatedAt: 2022-12-19T00:00:00.000Z
 ---

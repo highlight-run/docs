@@ -1,6 +1,6 @@
 ---
 title: Web Vitals
-slug: 1Xs5-web-vitals
+slug: web-vitals
 createdAt: 2021-09-14T00:14:06.000Z
 updatedAt: 2022-03-22T16:44:20.000Z
 ---

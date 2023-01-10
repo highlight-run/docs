@@ -1,6 +1,6 @@
 ---
 title: Gatsby.js
-slug: 4TkG-gatsbyjs
+slug: gatsbyjs
 createdAt: 2021-09-13T23:00:44.000Z
 updatedAt: 2022-04-01T19:51:11.000Z
 ---

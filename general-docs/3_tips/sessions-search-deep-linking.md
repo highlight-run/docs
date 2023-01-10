@@ -1,6 +1,6 @@
 ---
 title: Session Search Deep Linking
-slug: RXhV-session-search-deep-linking
+slug: session-search-deep-linking
 createdAt: 2022-01-26T19:50:50.000Z
 updatedAt: 2022-01-26T21:38:34.000Z
 ---

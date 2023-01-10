@@ -1,6 +1,6 @@
 ---
 title: Recording Network Requests and Responses
-slug: DUnO-recording-network-requests-and-responses
+slug: recording-network-requests-and-responses
 createdAt: 2021-09-14T00:14:21.000Z
 updatedAt: 2022-03-07T22:43:17.000Z
 ---

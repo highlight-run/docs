@@ -1,6 +1,6 @@
 ---
 title: Keyboard Shortcuts
-slug: eZGZ-keyboard-shortcuts
+slug: keyboard-shortcuts
 createdAt: 2021-09-14T01:48:34.000Z
 updatedAt: 2021-09-14T18:52:20.000Z
 ---

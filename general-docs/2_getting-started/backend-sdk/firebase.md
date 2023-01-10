@@ -1,6 +1,6 @@
 ---
 title: Firebase Backend
-slug: firebase-backend
+slug: backend
 createdAt: 2022-12-23T00:00:00.000Z
 updatedAt: 2022-12-23T00:00:00.000Z
 ---

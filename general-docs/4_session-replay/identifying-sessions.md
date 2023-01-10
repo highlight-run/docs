@@ -1,6 +1,6 @@
 ---
 title: Identifying Users
-slug: cSWW-identifying-users
+slug: identifying-users
 createdAt: 2021-09-13T23:23:20.000Z
 updatedAt: 2022-07-19T21:02:40.000Z
 ---

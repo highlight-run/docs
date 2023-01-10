@@ -1,6 +1,6 @@
 ---
 title: Clearbit Integration
-slug: EiHq-clearbit-integration
+slug: clearbit-integration
 createdAt: 2022-09-29T20:48:25.000Z
 updatedAt: 2022-10-13T18:04:10.000Z
 ---

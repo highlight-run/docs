@@ -1,6 +1,6 @@
 ---
 title: Tracking Events
-slug: BNpF-tracking-events
+slug: tracking-events
 createdAt: 2021-09-13T23:23:28.000Z
 updatedAt: 2022-03-21T18:25:39.000Z
 ---
