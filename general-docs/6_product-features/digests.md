@@ -1,6 +1,6 @@
 ---
 title: Digests
-slug: 
+slug: digests
 createdAt: 2022-12-12T00:00:00.000Z
 updatedAt: 2022-12-12T00:00:00.000Z
 ---

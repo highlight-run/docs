@@ -1,6 +1,6 @@
 ---
 title: Cross Origin Iframe Recording
-slug: origin-iframes
+slug: cross-origin-iframes
 createdAt: 2023-01-06T00:14:06.000Z
 updatedAt: 2023-01-06T16:44:20.000Z
 ---

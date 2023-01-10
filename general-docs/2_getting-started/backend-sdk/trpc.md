@@ -1,6 +1,6 @@
 ---
 title: tRPC Backend
-slug: backend
+slug: tprc-backend
 createdAt: 2022-12-23T00:00:00.000Z
 updatedAt: 2022-12-23T00:00:00.000Z
 ---
