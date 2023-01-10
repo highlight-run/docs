@@ -1,6 +1,6 @@
 ---
 title: Angular
-slug: l-ir-angular
+slug: angular
 createdAt: 2022-05-26T18:54:36.000Z
 updatedAt: 2022-05-26T18:55:03.000Z
 ---

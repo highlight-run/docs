@@ -1,6 +1,6 @@
 ---
 title: Amplitude Integration
-slug: KIbZ-amplitude-integration
+slug: amplitude-integration
 createdAt: 2021-09-13T23:57:13.000Z
 updatedAt: 2021-09-17T21:52:19.000Z
 ---

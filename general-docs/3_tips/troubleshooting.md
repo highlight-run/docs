@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-slug: u6Q2-troubleshooting
+slug: troubleshooting
 createdAt: 2022-01-20T23:35:49.000Z
 updatedAt: 2022-01-20T23:42:57.000Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: HTML iframe Recording
-slug: Q8GF-html-iframe-recording
+slug: html-iframe-recording
 createdAt: 2022-04-14T16:12:23.000Z
 updatedAt: 2022-04-19T18:48:07.000Z
 ---

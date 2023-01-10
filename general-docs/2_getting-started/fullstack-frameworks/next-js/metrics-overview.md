@@ -1,6 +1,6 @@
 ---
 title: Reporting Metrics
-slug: BN8E-metrics
+slug: metrics
 createdAt: 2022-10-13T18:20:48.000Z
 updatedAt: 2022-10-18T23:30:10.000Z
 ---

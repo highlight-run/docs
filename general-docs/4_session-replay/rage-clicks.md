@@ -1,6 +1,6 @@
 ---
 title: Rage Clicks
-slug: KkF8-rage-clicks
+slug: rage-clicks
 createdAt: 2021-10-13T01:46:13.000Z
 updatedAt: 2022-08-09T21:26:43.000Z
 ---

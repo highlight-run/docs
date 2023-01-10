@@ -1,6 +1,6 @@
 ---
 title: Performance Data
-slug: oqd--performance-data
+slug: performance-data
 createdAt: 2022-01-28T19:43:21.000Z
 updatedAt: 2022-01-28T19:49:08.000Z
 ---

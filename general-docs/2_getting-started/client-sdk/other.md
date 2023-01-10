@@ -1,6 +1,6 @@
 ---
 title: Other
-slug: CFfn-other
+slug: other
 createdAt: 2021-09-13T23:00:58.000Z
 updatedAt: 2022-04-01T19:51:23.000Z
 ---

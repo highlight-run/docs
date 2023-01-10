@@ -1,6 +1,6 @@
 ---
 title: Frontend Observability
-slug: p3DX-frontend-observability
+slug: frontend-observability
 createdAt: 2022-09-12T16:18:27.000Z
 updatedAt: 2022-09-29T18:55:22.000Z
 ---

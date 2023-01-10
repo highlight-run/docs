@@ -1,6 +1,6 @@
 ---
 title: Session Search
-slug: ew6H-session-search
+slug: session-search
 createdAt: 2022-05-06T23:05:46.000Z
 updatedAt: 2022-09-12T16:18:46.000Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: Sourcemaps
-slug: vdq8-sourcemaps
+slug: sourcemaps
 createdAt: 2021-09-13T23:56:14.000Z
 updatedAt: 2022-08-03T19:08:25.000Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: Alerts
-slug: 0OM1-alerts
+slug: alerts
 createdAt: 2021-09-14T00:14:56.000Z
 updatedAt: 2021-09-14T19:03:52.000Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: Proxying Highlight
-slug: pk96-proxying-highlight
+slug: proxying-highlight
 createdAt: 2021-10-11T21:13:07.000Z
 updatedAt: 2022-01-27T19:51:23.000Z
 ---

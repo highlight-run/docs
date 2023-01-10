@@ -1,6 +1,6 @@
 ---
 title: Vercel Integration
-slug: qpps-vercel-integration
+slug: apps-vercel-integration
 createdAt: 2022-10-13T18:03:19.000Z
 updatedAt: 2022-10-13T18:09:17.000Z
 ---

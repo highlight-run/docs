@@ -1,6 +1,6 @@
 ---
 title: WebGL
-slug: on-E-webgl
+slug: webgl
 createdAt: 2022-01-07T20:33:39.000Z
 updatedAt: 2022-07-11T21:04:21.000Z
 ---

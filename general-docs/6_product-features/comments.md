@@ -1,6 +1,6 @@
 ---
 title: Comments
-slug: KUJj-comments
+slug: comments
 createdAt: 2021-09-14T00:13:59.000Z
 updatedAt: 2022-04-13T00:10:08.000Z
 ---

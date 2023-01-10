@@ -1,6 +1,6 @@
 ---
 title: Sentry Integration
-slug: ixW4-sentry-integration
+slug: sentry-integration
 createdAt: 2021-10-18T22:03:24.000Z
 updatedAt: 2022-06-01T17:58:57.000Z
 ---

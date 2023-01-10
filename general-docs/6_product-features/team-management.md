@@ -1,6 +1,6 @@
 ---
 title: Team Management
-slug: uF_Y-team-management
+slug: team-management
 createdAt: 2021-09-14T01:48:55.000Z
 updatedAt: 2021-12-07T22:42:14.000Z
 ---

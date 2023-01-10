@@ -1,6 +1,6 @@
 ---
 title: Mixpanel Integration
-slug: 8xnb-mixpanel-integration
+slug: mixpanel-integration
 createdAt: 2021-09-13T23:57:09.000Z
 updatedAt: 2021-12-03T23:56:06.000Z
 ---

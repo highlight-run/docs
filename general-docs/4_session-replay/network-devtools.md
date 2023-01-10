@@ -1,6 +1,6 @@
 ---
 title: Network DevTools
-slug: zN30-network-devtools
+slug: network-devtools
 createdAt: 2021-09-14T01:47:18.000Z
 updatedAt: 2022-03-21T18:25:41.000Z
 ---

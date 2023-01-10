@@ -1,6 +1,6 @@
 ---
 title: Intercom Integration
-slug: idBC-intercom-integration
+slug: intercom-integration
 createdAt: 2021-12-03T23:56:12.000Z
 updatedAt: 2021-12-09T00:20:50.000Z
 ---

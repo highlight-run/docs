@@ -1,6 +1,6 @@
 ---
 title: Performance Impact
-slug: 9Zwe-performance-impact
+slug: performance-impact
 createdAt: 2021-10-14T00:18:49.000Z
 updatedAt: 2022-08-08T17:50:32.000Z
 ---

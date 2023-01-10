@@ -1,6 +1,6 @@
 ---
 title: Environments
-slug: S1E9-environments
+slug: environments
 createdAt: 2021-09-14T17:42:37.000Z
 updatedAt: 2022-03-09T17:00:11.000Z
 ---

@@ -1,6 +1,6 @@
 ---
 title: Monkey Patches
-slug: XQkt-monkey-patches
+slug: monkey-patches
 createdAt: 2022-01-21T22:53:59.000Z
 updatedAt: 2022-01-21T23:09:14.000Z
 ---

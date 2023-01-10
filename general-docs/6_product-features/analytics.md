@@ -1,6 +1,6 @@
 ---
 title: Analytics
-slug: vmAm-analytics
+slug: analytics
 createdAt: 2021-09-14T01:48:26.000Z
 updatedAt: 2021-09-14T18:54:27.000Z
 ---

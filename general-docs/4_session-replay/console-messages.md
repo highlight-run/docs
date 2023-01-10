@@ -1,6 +1,6 @@
 ---
 title: Console Messages
-slug: uMye-console-messages
+slug: console-messages
 createdAt: 2021-09-14T01:47:28.000Z
 updatedAt: 2022-08-11T16:28:21.000Z
 ---

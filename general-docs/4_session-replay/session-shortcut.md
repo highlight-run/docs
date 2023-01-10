@@ -1,6 +1,6 @@
 ---
 title: Session Shortcut
-slug: TF2O-session-shortcut
+slug: session-shortcut
 createdAt: 2021-11-15T20:06:57.000Z
 updatedAt: 2021-11-15T23:43:54.000Z
 ---

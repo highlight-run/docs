@@ -1,6 +1,6 @@
 ---
 title: Upgrading Highlight
-slug: DN_u-upgrading-highlight
+slug: upgrading-highlight
 createdAt: 2021-09-14T00:13:12.000Z
 updatedAt: 2022-03-08T00:55:27.000Z
 ---
